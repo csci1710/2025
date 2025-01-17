@@ -375,7 +375,7 @@ export const gradtas: staffMember[] = [
 ];
 
 export const calendarLink =
-  "https://calendar.google.com/calendar/embed?src=c_b8bddcf512bfb38a4aeb75f2bde1e1ac7a408e070171ef5c915ff161fe459616%40group.calendar.google.com&ctz=America%2FNew_York";
+  "https://calendar.google.com/calendar/u/0/embed?src=c_3004d5dc66b378769c57d834a6bfe8f5961ca733bf66163c91094293a79d0d81@group.calendar.google.com&ctz=America/New_York";
 
 // Type definitions
 
