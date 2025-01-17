@@ -305,7 +305,7 @@ export const htas: staffMember[] = [
     // alt_image: PUB + "/images/staff/megan_frog.jpeg",
     pronouns: "she/her",
     bio: "Hi! I'm a junior from North Carolina studying computer science. I'm so excited to be an HTA for 1710! Outside of cs, I love sewing, baking, web dev in React, my cat, and doing jigsaw puzzles!",
-    favorite_amphibian: "Team Toad",
+    favorite_amphibian: "Team Frog",
     role: "HTA",
   },
 ];
@@ -350,6 +350,16 @@ export const utas: staffMember[] = [
     // alt_image: PUB + "/images/staff/ese_frog.jpeg",
     bio: "Hi, I'm Matt! I'm a senior from Erie, Pennsylvania concentrating in CS. In my free time I love to cook, or play board games and video games.",
     favorite_amphibian: "Team Toad",
+    role: "UTA",
+  },
+  {
+    name: "Snoop Frogg",
+    image: PUB + "/images/staff/snoop.jpg",
+    objectPosition: "center 40%",
+    alt_image: PUB + "/images/staff/snoop_alt.jpg",
+    pronouns: "he/they",
+    bio: '"Rapper, producer, formal method and modeler."',
+    favorite_amphibian: "Team Frog, duh",
     role: "UTA",
   },
 ];
