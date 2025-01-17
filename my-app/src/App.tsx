@@ -1,5 +1,5 @@
-import CS1710_Logo from './assets/images/CS1710_logo.svg';
-import LFS_FROG from './assets/images/LFS_FROG.png';
+import CS1710_Logo from "./assets/images/CS1710_logo.svg";
+import LFS_FROG from "./assets/images/LFS_FROG.png";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import HeroDivider from "./components/divider-images/hero-divider/HeroDivider";
@@ -81,108 +81,126 @@ function App() {
       </header>
       <main className="mt-[14rem]">
         <body className="">
-        <section
-          id="intro"
-          className="flex flex-col h-[30rem] items-center justify-center text-neutral-50"
-        >
-          <img src={CS1710_Logo} alt="CS1710 Logo" className="max-w-full h-auto" />
-          <img src={LFS_FROG} alt="Cute lil froggy" className="max-w-full h-auto" />
-        </section>
+          <section
+            id="intro"
+            className="flex flex-col h-[30rem] items-center justify-center text-neutral-50"
+          >
+            <img
+              src={CS1710_Logo}
+              alt="CS1710 Logo"
+              className="max-w-full h-auto"
+            />
+            <img
+              src={LFS_FROG}
+              alt="Cute lil froggy"
+              className="max-w-full h-auto"
+            />
+          </section>
 
-        <br/><br/><br/><br/>
-        <div className="w-full h-24" style={{ backgroundColor: '#606b54' }}></div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <div
+            className="w-full h-24"
+            style={{ backgroundColor: "#606b54" }}
+          ></div>
 
-        <section
-          id="about"
-          ref={aboutRef}
-          className="text-center flex flex-col items-center justify-center pt-20"
-          style={{ color: '#966f51' }}
-        >
-          <h2 className="text-6xl font-title font-bold">About</h2>
+          <section
+            id="about"
+            ref={aboutRef}
+            className="text-center flex flex-col items-center justify-center pt-20"
+            style={{ color: "#966f51" }}
+          >
+            <h2 className="text-6xl font-title font-bold">About</h2>
 
-          <div className="p-4" />
-          <h4 className="font-bold pb-6 text-2xl">“What do you want?” </h4>
-          <div className=" w-5/6 lg:w-3/4 text-lg">
-            <p>
-              This question is perilous, yet indispensable in life. And it
-              remains vital in designing, understanding, and building systems.
-              How will you check that you’ve achieved your goal? What is the
-              cost, and which assumptions are you making along the way? Do you
-              really want what you think you do, and will your code (or other
-              artifact) actually work?
-            </p>
-            <div className="p-3" />
-            <p>
-              These questions matter, whether you’re crafting a new data
-              structure, finishing up a programming assignment, designing a
-              processor, or arguing over the rules of Monopoly with your
-              family. In this course, you’ll use concrete software tools
-              (e.g., model checkers and SAT solvers) to bring the power of
-              automated reasoning to bear on these and other quandaries in,
-              and outside of, computer science.
-            </p>
-            <div className="p-3" />
-            <p className="flex flex-col items-center justify-center font-semibold">
-              Logic for Systems is built on three broad learning categories:
-              <ul className="list-disc pt-2 font-normal w-fit text-md flex flex-col text-left items-center justify-center">
-                <li className="w-3/4">
-                  Modeling systems and making good abstraction choices;
-                </li>
-                <li className="w-3/4">
-                  Reasoning about systems automatically using logic; and
-                </li>
-                <li className="w-3/4">
-                  The foundational algorithms behind the tools used both in
-                  this class and in industry.
-                </li>
-              </ul>
-            </p>
-            <div className="p-3" />
-            <p>
-              The course culminates in a student-proposed, staff-mentored
-              project that applies to a real-world system. Past projects have
-              involved everything from distributed hash-tables to baseball
-              games!
-            </p>
-            <div className="p-3" />
-            <p>
-              Prerequisite:{" "}
-              <i>
-                <b>Any intro sequence!</b>
-              </i>{" "}
-              (CSCI 0160, CSCI 0180, CSCI 0190, or CSCI0200).
-            </p>
-            <div className="p-3" />
-            <p className="italic bold" style={{ color: '#523e2f' }}>
-              See the "Resources" section for the course syllabus!
-            </p>
-            <div className="p-3" />
-            <p className="">
-              If you're unsure about whether this is the right course for you,
-              check out our{" "}
-              <a
-                className="text-primary-500 underline font-bold"
-                href={FAQLink}
-                style={{ color: '#2c7d39' }}
-              >
-                FAQ
-              </a>
-              !
-            </p>
-            <div className="p-3" />
-          </div>
-        </section>
+            <div className="p-4" />
+            <h4 className="font-bold pb-6 text-2xl">“What do you want?” </h4>
+            <div className=" w-5/6 lg:w-3/4 text-lg">
+              <p>
+                This question is perilous, yet indispensable in life. And it
+                remains vital in designing, understanding, and building systems.
+                How will you check that you’ve achieved your goal? What is the
+                cost, and which assumptions are you making along the way? Do you
+                really want what you think you do, and will your code (or other
+                artifact) actually work?
+              </p>
+              <div className="p-3" />
+              <p>
+                These questions matter, whether you’re crafting a new data
+                structure, finishing up a programming assignment, designing a
+                processor, or arguing over the rules of Monopoly with your
+                family. In this course, you’ll use concrete software tools
+                (e.g., model checkers and SAT solvers) to bring the power of
+                automated reasoning to bear on these and other quandaries in,
+                and outside of, computer science.
+              </p>
+              <div className="p-3" />
+              <p className="flex flex-col items-center justify-center font-semibold">
+                Logic for Systems is built on three broad learning categories:
+                <ul className="list-disc pt-2 font-normal w-fit text-md flex flex-col text-left items-center justify-center">
+                  <li className="w-3/4">
+                    Modeling systems and making good abstraction choices;
+                  </li>
+                  <li className="w-3/4">
+                    Reasoning about systems automatically using logic; and
+                  </li>
+                  <li className="w-3/4">
+                    The foundational algorithms behind the tools used both in
+                    this class and in industry.
+                  </li>
+                </ul>
+              </p>
+              <div className="p-3" />
+              <p>
+                The course culminates in a student-proposed, staff-mentored
+                project that applies to a real-world system. Past projects have
+                involved everything from distributed hash-tables to baseball
+                games!
+              </p>
+              <div className="p-3" />
+              <p>
+                Prerequisite:{" "}
+                <i>
+                  <b>Any intro sequence!</b>
+                </i>{" "}
+                (CSCI 0160, CSCI 0180, CSCI 0190, or CSCI0200).
+              </p>
+              <div className="p-3" />
+              <p className="italic bold" style={{ color: "#523e2f" }}>
+                See the "Resources" section for the course syllabus!
+              </p>
+              <div className="p-3" />
+              <p className="">
+                If you're unsure about whether this is the right course for you,
+                check out our{" "}
+                <a
+                  className="text-primary-500 underline font-bold"
+                  href={FAQLink}
+                  style={{ color: "#2c7d39" }}
+                >
+                  FAQ
+                </a>
+                !
+              </p>
+              <div className="p-3" />
+            </div>
+          </section>
 
           <div className="p-6" />
 
-          <br/><br/>
-          <div className="w-full h-20" style={{ backgroundColor: '#606b54' }}></div>
+          <br />
+          <br />
+          <div
+            className="w-full h-20"
+            style={{ backgroundColor: "#606b54" }}
+          ></div>
 
           <section
             id="assignments"
             ref={assignmentsRef}
             className="text-center flex flex-col items-center justify-center pt-16"
-            style={{ color: '#966f51' }}
+            style={{ color: "#966f51" }}
           >
             <h2 className="text-6xl font-titl font-bold">Assignments</h2>
             <div className="p-4" />
@@ -208,14 +226,18 @@ function App() {
           </section>
 
           <div className="p-6" />
-          <br/><br/>
-          <div className="w-full h-20" style={{ backgroundColor: '#606b54' }}></div>
+          <br />
+          <br />
+          <div
+            className="w-full h-20"
+            style={{ backgroundColor: "#606b54" }}
+          ></div>
 
           <section
             id="lectures"
             ref={lecturesRef}
             className="text-center flex flex-col items-center justify-center pt-16"
-            style={{ color: '#966f51' }}
+            style={{ color: "#966f51" }}
           >
             <h2 className="text-6xl font-title font-bold">Lectures</h2>
             <div className="p-4" />
@@ -224,20 +246,22 @@ function App() {
                 Nothing here yet! See you in class :)
               </p>
             )}
-            <LecturesTable 
-              lectures={lectures} 
-            />
+            <LecturesTable lectures={lectures} />
           </section>
 
           <div className="p-6" />
-          <br/><br/>
-          <div className="w-full h-20" style={{ backgroundColor: '#606b54' }}></div>
+          <br />
+          <br />
+          <div
+            className="w-full h-20"
+            style={{ backgroundColor: "#606b54" }}
+          ></div>
 
           <section
             id="resources"
             ref={resourcesRef}
             className="text-center flex flex-col items-center justify-center pt-16"
-            style={{ color: '#966f51' }}
+            style={{ color: "#966f51" }}
           >
             <h2 className="text-6xl font-title font-bold">Resources</h2>
             <div className="p-4" />
@@ -245,21 +269,22 @@ function App() {
           </section>
 
           <div className="p-6" />
-          <br/><br/>
-          <div className="w-full h-20" style={{ backgroundColor: '#606b54' }}></div>
+          <br />
+          <br />
+          <div
+            className="w-full h-20"
+            style={{ backgroundColor: "#606b54" }}
+          ></div>
 
           <section
             id="calendar"
             ref={calendarRef}
             className="text-center flex flex-col items-center justify-center pt-16"
-            style={{ color: '#966f51' }}
+            style={{ color: "#966f51" }}
           >
             <h2 className="text-6xl font-title font-bold">Calendar</h2>
             <div className="p-4" />
-            <a
-              href={calendarLink}
-              className="font-bold underline text-2xl"
-            >
+            <a href={calendarLink} className="font-bold underline text-2xl">
               Calendar Link (Add to your GCal)
             </a>
             <div className="p-4" />
@@ -279,14 +304,18 @@ function App() {
             <div className="p-4" />
           </section>
 
-          <br/><br/>
-          <div className="w-full h-20" style={{ backgroundColor: '#606b54' }}></div>
+          <br />
+          <br />
+          <div
+            className="w-full h-20"
+            style={{ backgroundColor: "#606b54" }}
+          ></div>
 
           <section
             id="staff"
             ref={staffRef}
             className="text-center flex flex-col items-center justify-center pt-16"
-            style={{ color: '#966f51' }}
+            style={{ color: "#966f51" }}
           >
             <h2 className="text-6xl font-title font-bold">Staff</h2>
             <div className="p-4" />
@@ -294,7 +323,7 @@ function App() {
           </section>
         </body>
         <p className="text-center p-16">
-          © Spring 2024 cs1710 TA Staff |{" "}
+          © Spring 2025 cs1710 TA Staff |{" "}
           <a className="underline" href="http://cs.brown.edu/">
             Computer Science Department
           </a>{" "}

@@ -37,402 +37,27 @@ export const announcementInfo = {
   buttonLink:
     "https://docs.google.com/forms/d/1KreaxonPm0yHkpdu0Pg9bagNk3ygip3K7fcQNIsajhQ/viewform?edit_requested=true",
   // Set & Forget tools:
-  autoReleaseDate: "Feb 3, 2024 09:45:00 EST", // Automatically shows announcement on this date/time EST
-  autoDismissDate: "Feb 4, 2024 09:00:00 EST", // Automatically removes announcement on this date/time EST
+  autoReleaseDate: "Feb 3, 2025 09:45:00 EST", // Automatically shows announcement on this date/time EST
+  autoDismissDate: "Feb 4, 2025 09:00:00 EST", // Automatically removes announcement on this date/time EST
   // Announcement will be shown on page load and manually dismissable between the above two dates
 };
 
 export const lectures: Lecture[] = [
   {
     name: "What is LfS?",
-    date: "Jan 24",
-    notesLink: "https://csci1710.github.io/book/chapters/manifesto.html",
-    recordingLink:
-      "",
-    otherLinks: [{name: "Amazon AWS Zelkova (Whitepaper)", 
-                  link: "https://aws.amazon.com/blogs/security/protect-sensitive-data-in-the-cloud-with-automated-reasoning-zelkova/"}, 
-                 {name: "Some Industrial Applications", 
-                  link: "https://github.com/ligurio/practical-fm"}]
-  },
-  {
-    name: "Properties and Testing",
-    date: "Jan 26",
-    notesLink: "https://csci1710.github.io/book/chapters/properties.html",
-    recordingLink:
-      "https://canvas.brown.edu/courses/1094402/external_tools/33943",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/properties/pbt.py",
-  },
-  {
-    name: "Intro to Modeling in Froglet (Part 1, Basics)",
-    date: "Jan 29",
-    notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_1.html",
-    recordingLink:
-      "https://canvas.brown.edu/courses/1094402/external_tools/33943",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_1.frg",
-  },
-  {
-    name: "Intro to Modeling (Part 2, Transitions); Showcase",
-    date: "Jan 31",
-    notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_2.html",
-    recordingLink:
-      "https://canvas.brown.edu/courses/1094402/external_tools/33943",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_2_inclass.frg",
-  },
-  {
-    //name: "Design-Space Exploration and Constraint Solving",
-    name: "Intro to Modeling (Part 3, Traces)",
-    date: "Feb 02",
-    notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_3.html",
-    recordingLink:
-      "https://canvas.brown.edu/courses/1094402/external_tools/33943",
-    liveCodeLink:
-    "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_3_inclass.frg",
-  },
-  {
-    //name: "Discrete Event Systems",
-    name: "Intro to Modeling (Part 4, FAQ)",
-    date: "Feb 05",
-    notesLink: "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_4.html",
-    recordingLink:
-      "https://canvas.brown.edu/courses/1094402/external_tools/33943",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_4_inclass.frg",
-  },
-  {
-    name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
-    date: "Feb 07",
-    notesLink: "https://csci1710.github.io/book/chapters/finite_and_inductive/finite_and_inductive_1.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/finite_and_inductive/ttt_finite.frg",
-  },
-  {
-    name: "Discrete Events and Traces (Part 2, Preservation)",
-    date: "Feb 09",
-    notesLink: "https://csci1710.github.io/book/chapters/finite_and_inductive/finite_and_inductive_2.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/finite_and_inductive/ttt_finite.frg",
-  },
-  {
-    name: "Inductive Verification: Binary Search (Part 1)",
-    date: "Feb 12",
-    notesLink: "https://csci1710.github.io/book/chapters/finite_and_inductive/finite_and_inductive_3.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_template.frg",
-  },
-  {
-    name: "Inductive Verification: Binary Search (Part 2)",
-    date: "Feb 14",
-    notesLink: "https://csci1710.github.io/book/chapters/finite_and_inductive/finite_and_inductive_3.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_template.frg",
+    date: "Jan 22",
+    // notesLink: "https://csci1710.github.io/book/chapters/manifesto.html",
+    recordingLink: "",
     otherLinks: [
-      {name: "Testing reachable", 
-       link: "https://csci1710.github.io/book/chapters/finite_and_inductive/testing_reachable.frg"}
-    ]
-    
-  },
-  {
-    name: "Inductive Verification: Binary Search (Part 3)",
-    date: "Feb 16",
-    notesLink: "https://csci1710.github.io/book/chapters/finite_and_inductive/finite_and_inductive_3.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_inclass.frg",
-  },
-  {
-    name: "Modeling syntax, semantics, and sets: Relational Forge",
-    date: "Feb 21",
-    notesLink: "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/modeling-booleans-1.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "Modeling syntax, semantics, and sets: Relational Forge",
-    date: "Feb 23",
-    notesLink: "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/modeling-booleans-1.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/booleans-inclass-1.frg",
-  },
-  {
-    name: "Join and Reachability",
-    date: "Feb 26",
-    notesLink: "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/reachability.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/reach.frg",
-  },
-  {
-    name: "Modeling Mutex (Part 1)",
-    date: "Feb 28",
-    notesLink: "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/sets-induction-mutex.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/mutex.frg",
-  },
-  {
-    name: "Modeling Mutex (Part 2)",
-    date: "Mar 01",
-    notesLink: "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/sets-beyond-assertions.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/mutex.frg",
-  },
-  {
-    name: "Liveness and Lassos",
-    date: "Mar 04",
-    notesLink: "https://csci1710.github.io/book/chapters/temporal/liveness_and_lassos.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/temporal/mutex.frg",
-  },
-  {
-    name: "Temporal Forge",
-    date: "Mar 06",
-    notesLink: "https://csci1710.github.io/book/chapters/temporal/temporal_operators.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
-    otherLinks: [
-        {name: "Integer counter model", 
-         link: "https://csci1710.github.io/book/chapters/temporal/counter.frg"}
-      ]
-  },
-  {
-    name: "Modeling Mutex (Part 3, Temporally)",
-    date: "Mar 08",
-    notesLink: "https://csci1710.github.io/book/chapters/temporal/temporal_operators_2.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
-    
-  },
-  {
-    name: "Obligations and the Past",
-    date: "Mar 11",
-    notesLink: "https://csci1710.github.io/book/chapters/temporal/obligations_past.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
-    otherLinks: [
-        {name: "Traffic lights model", 
-         link: "https://csci1710.github.io/book/chapters/temporal/traffic.frg"}
-    ]
-  },
-  {
-    name: "MST, Temporally",
-    date: "Mar 13",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://github.com/csci1710/public-examples/blob/main/2024/prim.frg",
-  },
-  {
-    name: "Peterson's Lock (Part 1)",
-    date: "Mar 15",
-    notesLink: "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/temporal/peterson.frg",
-  },
-  {
-    name: "Peterson's Lock (Part 2), What was the problem in Prim's?",
-    date: "Mar 18",
-    notesLink: "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/temporal/peterson.frg",
-    otherLinks: [
-        {name: "Prim's algorithm model", 
-         link: "https://github.com/csci1710/public-examples/blob/main/2024/prim.frg"}
-    ]
-  },
-  {
-    name: "How Forge Works (Part 1)",
-    date: "Mar 20",
-    notesLink: "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "Q&A (No notes)",
-    date: "Mar 22",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "Solving SAT (DPLL Part 1)",
-    date: "Apr 01",
-    notesLink: "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "Solving SAT (DPLL Part 2)",
-    date: "Apr 03",
-    notesLink: "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "Resolution (Part 1)",
-    date: "Apr 05",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "Resolution (Part 2)",
-    date: "Apr 08",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "Resolution (Part 3)",
-    date: "Apr 10",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "(Optional) Future of 1710",
-    date: "Apr 12",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "SMT (Whirlwind Tour)",
-    date: "Apr 15",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "SMT (Applications)",
-    date: "Apr 17",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "SMT (Algorithms)",
-    date: "Apr 19",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "SMT (CEGIS and Synthesis)",
-    date: "Apr 22",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "TBD (Topics by Request) or Guest",
-    date: "Apr 24",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "Reading Period (Possible Guest)",
-    date: "Apr 26",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "Reading Period (Possible Guest)",
-    date: "Apr 29",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "Reading Period (Possible Guest)",
-    date: "May 01",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "Reading Period (Possible Guest)",
-    date: "May 03",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
-  },
-  {
-    name: "Reading Period (Possible Guest)",
-    date: "May 06",
-    notesLink: "",
-    recordingLink:
-      "",
-    liveCodeLink:
-      "",
+      {
+        name: "Amazon AWS Zelkova (Whitepaper)",
+        link: "https://aws.amazon.com/blogs/security/protect-sensitive-data-in-the-cloud-with-automated-reasoning-zelkova/",
+      },
+      {
+        name: "Some Industrial Applications",
+        link: "https://github.com/ligurio/practical-fm",
+      },
+    ],
   },
 ];
 
@@ -440,76 +65,76 @@ export const lectures: Lecture[] = [
 export const homeworkAssignments: Assignment[] = [
   {
     name: "PBT",
-    dateRange: "Jan 26 → Feb 1, 2024",
-    href: "https://hackmd.io/@csci1710/HkjlMXsYa",
-    autoReleaseDate: "Jan 26, 2024 11:00:00 EST",
+    dateRange: "Jan 24 → Jan 30, 2025",
+    // href: "https://hackmd.io/@csci1710/HkjlMXsYa",
+    autoReleaseDate: "Jan 24, 2025 11:00:00 EST",
   },
   {
     name: "Modeling Intro",
-    dateRange: "Feb 2 → Feb 8, 2024",
-    href: "https://hackmd.io/@csci1710/B1NEG7jKa",
-    autoReleaseDate: "Feb 02, 2024 11:00:00 EST",
+    dateRange: "Jan 31 → Feb 6, 2025",
+    // href: "https://hackmd.io/@csci1710/B1NEG7jKa",
+    autoReleaseDate: "Jan 31, 2025 11:00:00 EST",
   },
   {
     name: "Physical Keys",
-    dateRange: "Feb 9 → Feb 15, 2024",
-    href: "https://hackmd.io/@csci1710/ByLnzQstT",
-    autoReleaseDate: "Feb 09, 2024 11:00:00 EST",
+    dateRange: "Feb 7 → Feb 13, 2025",
+    // href: "https://hackmd.io/@csci1710/ByLnzQstT",
+    autoReleaseDate: "Feb 07, 2025 11:00:00 EST",
   },
   {
     name: "Hotel Locking",
-    dateRange: "Feb 21 → Feb 27, 2024",
-    href: "https://hackmd.io/@csci1710/B1CCmQjKa",
-    autoReleaseDate: "Feb 21, 2024 11:00:00 EST",
+    dateRange: "Feb 19 → Feb 25, 2025",
+    // href: "https://hackmd.io/@csci1710/B1CCmQjKa",
+    autoReleaseDate: "Feb 19, 2025 11:00:00 EST",
   },
   {
     name: "Memory Management",
-    dateRange: "Mar 1 → Mar 7, 2024",
-    href: "https://hackmd.io/@csci1710/S1xVNmiK6",
-    autoReleaseDate: "Mar 01, 2024 11:00:00 EST",
+    dateRange: "Feb 28 → Mar 6, 2025",
+    // href: "https://hackmd.io/@csci1710/S1xVNmiK6",
+    autoReleaseDate: "Feb 28, 2025 11:00:00 EST",
   },
   {
     name: "Temporal Modeling",
-    dateRange: "Mar 08 → Mar 14, 2024",
-    href: "https://hackmd.io/@csci1710/HJk8E7jFa",
-    autoReleaseDate: "Mar 08, 2024 11:00:00 EST",
+    dateRange: "Mar 07 → Mar 13, 2025",
+    // href: "https://hackmd.io/@csci1710/HJk8E7jFa",
+    autoReleaseDate: "Mar 07, 2025 11:00:00 EST",
   },
   {
     name: "Hotel Locking (Lab Portion)",
-    dateRange: "Mar 07 → Mar 10, 2024",
-    href: "https://hackmd.io/@csci1710/B1UdLQjKp",
-    autoReleaseDate: "Mar 07, 2024 20:30:00 EST",
+    dateRange: "Mar 06 → Mar 9, 2025",
+    // href: "https://hackmd.io/@csci1710/B1UdLQjKp",
+    autoReleaseDate: "Mar 06, 2025 20:30:00 EST",
   },
   {
     name: "Elevator Critique",
-    dateRange: "Mar 15 → Mar 21, 2024",
-    href: "https://hackmd.io/@csci1710/rJ3YVQoFT",
-    autoReleaseDate: "Mar 15, 2024 11:00:00 EST",
+    dateRange: "Mar 14 → Mar 20, 2025",
+    // href: "https://hackmd.io/@csci1710/rJ3YVQoFT",
+    autoReleaseDate: "Mar 14, 2025 11:00:00 EST",
   },
   {
     name: "SAT 1",
-    dateRange: "Apr 5 → Apr 11, 2024",
-    href: "https://hackmd.io/@csci1710/Sk8ANXiYT",
-    autoReleaseDate: "Apr 5, 2024 11:00:00 EDT",
+    dateRange: "Apr 4 → Apr 10, 2025",
+    // href: "https://hackmd.io/@csci1710/Sk8ANXiYT",
+    autoReleaseDate: "Apr 4, 2025 11:00:00 EDT",
   },
   {
     name: "SAT 2",
-    dateRange: "Apr 15 → Apr 21, 2024",
-    href: "https://hackmd.io/@csci1710/BkMlBmoKa",
-    autoReleaseDate: "Apr 15, 2024 11:00:00 EDT",
+    dateRange: "Apr 14 → Apr 20, 2025",
+    // href: "https://hackmd.io/@csci1710/BkMlBmoKa",
+    autoReleaseDate: "Apr 14, 2025 11:00:00 EDT",
   },
   {
     name: "SMT",
-    dateRange: "Apr 22 → Apr 28, 2024",
-    href: "https://hackmd.io/@csci1710/rkzzBmoYa",
-    autoReleaseDate: "Apr 22, 2024 11:00:00 EDT",
+    dateRange: "Apr 21 → Apr 27, 2025",
+    // href: "https://hackmd.io/@csci1710/rkzzBmoYa",
+    autoReleaseDate: "Apr 21, 2025 11:00:00 EDT",
   },
   // {
   //   // Rickroll ;)
   //   name: "Hardest Assignment Ever...",
   //   dateRange: "Oct 25 → Oct 26, 2009",
   //   href: "https://www.youtube.com/watch?v=xvFZjo5PgG0",
-  //   autoReleaseDate: "Jan 25, 2024 21:28:59 EST",
+  //   autoReleaseDate: "Jan 25, 2025 21:28:59 EST",
   // },
   // ...
 ];
@@ -517,59 +142,59 @@ export const homeworkAssignments: Assignment[] = [
 export const labAssignments: Assignment[] = [
   {
     name: "(Optional) Async Python",
-    dateRange: "Jan 27, 2024",
+    dateRange: "Jan 25, 2025",
     href: "https://hackmd.io/@csci1710/By-lPmstT",
-    autoReleaseDate: "Jan 23, 2024 09:45:00 EST",
+    autoReleaseDate: "Jan 23, 2025 09:45:00 EST",
   },
   {
     name: "Tic Tac Toe",
-    dateRange: "Jan 31 → Feb 01, 2024",
-    href: "https://hackmd.io/@csci1710/HkOLBXstT",
-    autoReleaseDate: "Feb 01, 2024 20:30:00 EST",
+    dateRange: "Jan 29 → Jan 30, 2025",
+    // href: "https://hackmd.io/@csci1710/HkOLBXstT",
+    autoReleaseDate: "Jan 29, 2025 20:30:00 EST",
   },
   {
     name: "N Queens",
-    dateRange: "Feb 07 → Feb 08, 2024",
-    href: "https://hackmd.io/@csci1710/BkYfImjKp",
-    autoReleaseDate: "Feb 08, 2024 20:30:00 EST",
+    dateRange: "Feb 05 → Feb 07, 2025",
+    // href: "https://hackmd.io/@csci1710/BkYfImjKp",
+    autoReleaseDate: "Feb 05, 2025 20:30:00 EST",
   },
   {
     name: "Ring Election",
-    dateRange: "Feb 14 → Feb 15, 2024",
-    href: "https://hackmd.io/@csci1710/ryC5S7jt6",
-    autoReleaseDate: "Feb 15, 2024 20:30:00 EST",
+    dateRange: "Feb 12 → Feb 13, 2025",
+    // href: "https://hackmd.io/@csci1710/ryC5S7jt6",
+    autoReleaseDate: "Feb 12, 2025 20:30:00 EST",
   },
   {
     name: "Curiosity co-lab",
-    dateRange: "Feb 21 → Feb 22, 2024",
-    href: "https://hackmd.io/@csci1710/rJm6XmjKT",
+    dateRange: "Feb 19 → Feb 20, 2025",
+    // href: "https://hackmd.io/@csci1710/rJm6XmjKT",
   },
   {
     name: "Reference Counting",
-    dateRange: "Feb 28 → Feb 29, 2024",
-    href: "https://hackmd.io/@csci1710/S1LXKW2t6",
-    autoReleaseDate: "Feb 29, 2024 20:30:00 EST",
+    dateRange: "Feb 26 → Feb 27, 2025",
+    // href: "https://hackmd.io/@csci1710/S1LXKW2t6",
+    autoReleaseDate: "Feb 26, 2025 20:30:00 EST",
   },
   {
     name: "Hotel Case Study",
-    dateRange: "Mar 06 → Mar 07, 2024",
-    href: "https://drive.google.com/file/d/1R6Lt2wQkR3hz1G6CDnE-tP9wkwJK8qT2/view?usp=sharing",
-    autoReleaseDate: "Mar 07, 2024 20:30:00 EST",
+    dateRange: "Mar 05 → Mar 06, 2025",
+    // href: "https://drive.google.com/file/d/1R6Lt2wQkR3hz1G6CDnE-tP9wkwJK8qT2/view?usp=sharing",
+    autoReleaseDate: "Mar 05, 2025 20:30:00 EST",
   },
   {
     name: "Dining Blacksmiths",
-    dateRange: "Mar 13 → Mar 14, 2024",
-    href: "https://hackmd.io/@csci1710/HkbhU7sta",
-    autoReleaseDate: "Mar 14, 2024 20:30:00 EST",
+    dateRange: "Mar 12 → Mar 13, 2025",
+    // href: "https://hackmd.io/@csci1710/HkbhU7sta",
+    autoReleaseDate: "Mar 12, 2025 20:30:00 EST",
   },
   {
     name: "Proposal co-lab",
-    dateRange: "Apr 03 → Apr 04, 2024",
+    dateRange: "Apr 02 → Apr 03, 2025",
     // href: "https://www.google.com",
   },
   {
     name: "SAT 2 co-lab",
-    dateRange: "Apr 17 → Apr 18, 2024",
+    dateRange: "Apr 16 → Apr 17, 2025",
     // href: "https://www.google.com",
   },
 ];
@@ -577,20 +202,20 @@ export const labAssignments: Assignment[] = [
 export const projectAssignments: Assignment[] = [
   {
     name: "Curiosity Modeling",
-    dateRange: "Feb 16 → Feb 29, 2024",
-    href: "https://hackmd.io/@csci1710/rJm6XmjKT",
-    autoReleaseDate: "Feb 16, 2024 11:00:00 EST",
+    dateRange: "Feb 14 → Feb 27, 2025",
+    // href: "https://hackmd.io/@csci1710/rJm6XmjKT",
+    autoReleaseDate: "Feb 16, 2025 11:00:00 EST",
   },
   {
     name: "Final Project (Proposal)",
-    dateRange: "Apr 04, 2024",
-    href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
+    dateRange: "Apr 03, 2025",
+    // href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
   },
   {
     name: "Final Project",
-    dateRange: "Apr 14 → May 11, 2024",
-    href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
-    autoReleaseDate: "Apr 14, 2024 11:00:00 EST",
+    dateRange: "Apr 12 → May 09, 2025",
+    // href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
+    autoReleaseDate: "Apr 12, 2025 11:00:00 EST",
   },
 ];
 
@@ -605,8 +230,10 @@ export const policies: Resource[] = [
     name: "Syllabus",
     href: "https://docs.google.com/document/d/1oX0zMFbLzYvUhUheEy1ak4AYdOlDhRbg97KvMHVt9MA/edit?usp=drive_link",
   },
-   { name: "Collaboration Policy", 
-     href: "https://docs.google.com/document/d/e/2PACX-1vQ7b5GLg6Kie0l4zzuLLQ7oaC89V931dqbHQl7Rgr7sVT05bIu1WrGTcNaGpn9gg5y9Tc7GvLS32vf1/pub" },
+  {
+    name: "Collaboration Policy",
+    href: "https://docs.google.com/document/d/e/2PACX-1vQ7b5GLg6Kie0l4zzuLLQ7oaC89V931dqbHQl7Rgr7sVT05bIu1WrGTcNaGpn9gg5y9Tc7GvLS32vf1/pub",
+  },
 ];
 
 export const importantLinks: Resource[] = [
@@ -653,105 +280,75 @@ export const professor: staffMember = {
   alt_objectPosition: "90% 50%",
   pronouns: "he/they",
   bio: 'I’m a first-generation college student who attended community college, a state college, the "college" of an industry job, and a STEM university. Now I teach at Brown. You might call this a collage of colleges, although not quite a universe of universities.',
-  favorite_amphibian:
-    "Neutral (as a professor, I can't play favorites!)",
+  favorite_amphibian: "Neutral (as a professor, I can't play favorites!)",
   role: "Professor",
   // favorite_amphibian_image: "",
 };
 
 export const htas: staffMember[] = [
   {
-    name: "Bisheshank C Aryal",
-    image: PUB + "/images/staff/bisheshank.jpeg",
+    name: "Mathilde Kermorgant",
+    image: PUB + "/images/staff/mathilde.jpeg",
     objectPosition: "center 35%",
-   // alt_image: PUB + "/images/staff/david_frog.jpeg",
+    // alt_image: PUB + "/images/staff/david_frog.jpeg",
     alt_objectPosition: "80% 50%",
-    pronouns: "he/him",
-    bio: "Hihi! I'm a sophmore studying cs and trying my best at math ;-; Other than that, I'm hoping to convince people I'm an artist by just owning a sketchbook. Apparently waving it around dramatically helps. Happy forging, and may Nim Telson bless your code <3",
-    favorite_amphibian: "Team Toad",
-    role: "HTA",
-  },
-  {
-    name: "Karis Ma",
-    image: PUB + "/images/staff/karis.jpeg",
-    objectPosition: "center 65%",
-   // alt_image: PUB + "/images/staff/megan_frog.jpeg",
     pronouns: "she/her",
-    bio: "Hi! I'm Karis, and I'm a junior from Singapore concentrating in CS and Sociology. Outside of classes, I'm involved with Fusion Dance Company, the Curricular Resource Center, and also have a deep passion for naps in the rare moments I can have them. I love talking to students, so feel free to say hi whenever! Welcome to LfS – it's a wonderful place :)",
+    bio: "I'm a senior concentrating in math and CS (reluctantly) hailing from Paris. My two passions are purple and goats (not frogs sorry), and I am really excited for this year's iteration of LfS!",
     favorite_amphibian: "Team Toad",
     role: "HTA",
   },
   {
-    name: "Karim Mouline",
-    image: PUB + "/images/staff/karim.jpeg",
-    objectPosition: "center 85%",
-   // alt_image: PUB + "/images/staff/megan_frog.jpeg",
-    pronouns: "he/him",
-    bio: "Hi everyone! I'm a junior studying Math-CS (heavy on the CS part) who likes to run and swim. I am also Ethel Cain's #1 fan. I'm excited to meet you all!",
-    favorite_amphibian: "Team Frog",
+    name: "Sarah Ridley",
+    image: PUB + "/images/staff/sarah.jpeg",
+    objectPosition: "center 65%",
+    // alt_image: PUB + "/images/staff/megan_frog.jpeg",
+    pronouns: "she/her",
+    bio: "Hi! I'm a junior from North Carolina studying computer science. I'm so excited to be an HTA for 1710! Outside of cs, I love sewing, baking, web dev in React, my cat, and doing jigsaw puzzles!",
+    favorite_amphibian: "Team Toad",
     role: "HTA",
   },
 ];
 
 export const utas: staffMember[] = [
   {
-    name: "Brandon Diaz",
-    image: PUB + "/images/staff/brandon.jpeg",
-   // alt_image: PUB + "/images/staff/yihao_frog.jpeg",
+    name: "Komron Aripov",
+    image: PUB + "/images/staff/komron.jpeg",
+    // alt_image: PUB + "/images/staff/yihao_frog.jpeg",
     alt_objectPosition: "center 65%",
     pronouns: "he/him",
-    bio: "Hi everyone! I'm a senior studying CS and IAPA and I'm from Atlanta, GA. I love spontaneous trips and listening to music. Can’t wait to meet everyone! :)",
+    bio: "Hi! I'm a senior from Samarkand, Uzbekistan studying CS. I love building electronics and software projects, including skateboards, homelabs, lamps and much more. Feel free to ask me anything about how to set up your very own streaming service :)",
     favorite_amphibian: "Team Frog",
     role: "UTA",
   },
 
   {
-    name: "Maya Fleischer",
-    image: PUB + "/images/staff/maya.jpeg",
+    name: "Zeeshan Bhalwani",
+    image: PUB + "/images/staff/zeeshan.jpg",
     objectPosition: "center 15%",
-   // alt_image: PUB + "/images/staff/conrad_frog.jpeg",
+    // alt_image: PUB + "/images/staff/conrad_frog.jpeg",
     alt_objectPosition: "center 25%",
-    pronouns: "she/her",
-    bio: "I am a senior studying Computer Science from South Africa. <a nice message about how excited I am>!",
-    favorite_amphibian: "Team Frog",
-    role: "UTA",
-  },
-  {
-    name: "Valentina Lin",
-    image: PUB + "/images/staff/valentina.jpeg",
-    objectPosition: "center 35%",
-   // alt_image: PUB + "/images/staff/kendra_frog.jpeg",
-    pronouns: "she/they",
-    bio: "Hello! I'm Valentina, a junior from SoCal concentrating in Computer Science. I have a remarkable talent for running into strange bugs, and outside of CS, you'll probably find me singing or (hopefully) rock climbing. Talk to me about Studio Ghibli, your favorite foods, or cool places around campus!",
-    favorite_amphibian: "Team Toad",
-    role: "UTA",
-  },
-  {
-    name: "Ezra Rocha",
-    image: PUB + "/images/staff/ezra.jpeg",
     pronouns: "he/him",
-   // alt_image: PUB + "/images/staff/ese_frog.jpeg",
-    bio: "Hey y'all! I'm Ezra, a senior from Dallas, TX studying CS. In my free time, I'm binging shows, playing board games or practicing violin (shoutout to AVGE). Be sure to axolotl questions at my hours!",
-    favorite_amphibian: "Team Toad",
-    role: "UTA",
-  },
-  {
-    name: "Conrad Zimmerman",
-    image: PUB + "/images/staff/conrad.jpg",
-    //alt_image: PUB + "/images/staff/ezra_frog.jpeg",
-    pronouns: "she/her",
-    bio: "I'm a RUE student who studies math and plays Pokemon Go! Before that I graduated from a community college, developed software, and taught school. I love coffee, formal methods, cute dogs, and first order logic.",
+    bio: "Hey everyone! I'm a senior from Michigan studying CS. In my free time, I enjoy playing basketball, practicing archery, and watching cricket and F1.",
     favorite_amphibian: "Team Frog",
     role: "UTA",
   },
   {
-    name: "Snoop Frogg",
-    image: PUB + "/images/staff/snoop.jpg",
-    objectPosition: "center 40%",
-    alt_image: PUB + "/images/staff/snoop_alt.jpg",
-    pronouns: "he/they",
-    bio: '"Rapper, producer, formal method and modeler."',
-    favorite_amphibian: "Team Frog, duh",
+    name: "Lucy Gramley",
+    image: PUB + "/images/staff/lucy.jpg",
+    objectPosition: "center 35%",
+    // alt_image: PUB + "/images/staff/kendra_frog.jpeg",
+    pronouns: "she/her",
+    bio: "Hi! I’m from Oregon and concentrating in computer science. Outside of school, I love skiing, swimming, hiking, board games, and hot chocolate.",
+    favorite_amphibian: "Team Toad",
+    role: "UTA",
+  },
+  {
+    name: "Matthew Prenovitz",
+    image: PUB + "/images/staff/matt.png",
+    pronouns: "he/him",
+    // alt_image: PUB + "/images/staff/ese_frog.jpeg",
+    bio: "Hi, I'm Matt! I'm a senior from Erie, Pennsylvania concentrating in CS. In my free time I love to cook, or play board games and video games.",
+    favorite_amphibian: "Team Toad",
     role: "UTA",
   },
 ];

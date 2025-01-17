@@ -19,8 +19,19 @@ export default function LecturesTable(props: LectureTableProps) {
   return (
     <div className="mt-8 flex flex-col">
       <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
-      <p>The listed lecture schedule is prospective and subject to change. All lecture capture videos can be found on our 2024 Canvas <a href="https://canvas.brown.edu/courses/1094402/external_tools/33943">media library page</a>.</p>
-      <p>Notes can be found on our <a href="https://csci1710.github.io/book">Forge book deployment</a>, even if the specific chapters are not yet linked below.</p>
+        <p>
+          The listed lecture schedule is prospective and subject to change. All
+          lecture capture videos can be found on our 2025 Canvas{" "}
+          <a href="https://canvas.brown.edu/courses/1094402/external_tools/33943">
+            media library page
+          </a>
+          .
+        </p>
+        <p>
+          Notes can be found on our{" "}
+          <a href="https://csci1710.github.io/book">Forge book deployment</a>,
+          even if the specific chapters are not yet linked below.
+        </p>
         <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
           <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
             <table className="min-w-full divide-y divide-gray-300">
@@ -83,8 +94,10 @@ export default function LecturesTable(props: LectureTableProps) {
                         </a>
                       </td>
                     ) : (
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-400 sm:pl-6">-</td>                
-                    )}  
+                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-400 sm:pl-6">
+                        -
+                      </td>
+                    )}
                     {/* {lecture.recordingLink ? (
                       <td>
                         <a 
@@ -99,7 +112,7 @@ export default function LecturesTable(props: LectureTableProps) {
                     )}   */}
                     {lecture.liveCodeLink ? (
                       <td>
-                        <a 
+                        <a
                           href={lecture.liveCodeLink}
                           className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-bold underline sm:pl-6"
                         >
@@ -107,24 +120,28 @@ export default function LecturesTable(props: LectureTableProps) {
                         </a>
                       </td>
                     ) : (
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-400 sm:pl-6">-</td>
-                    )}  
+                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-400 sm:pl-6">
+                        -
+                      </td>
+                    )}
                     {lecture.otherLinks ? (
                       <td>
                         {lecture.otherLinks.map((otherLink, index) => (
                           <span key={index}>
-                            <a 
+                            <a
                               href={otherLink.link}
                               className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-bold underline sm:pl-6"
                             >
                               {otherLink.name}
                             </a>
-                            <br/>
+                            <br />
                           </span>
                         ))}
                       </td>
                     ) : (
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-400 sm:pl-6">-</td>
+                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-400 sm:pl-6">
+                        -
+                      </td>
                     )}
                   </tr>
                 ))}
