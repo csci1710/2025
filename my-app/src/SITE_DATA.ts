@@ -167,7 +167,7 @@ export const labAssignments: Assignment[] = [
   {
     name: "Curiosity co-lab",
     dateRange: "Feb 19 → Feb 20, 2025",
-    href: "https://hackmd.io/@csci1710/rJm6XmjKT",
+    // href: "https://hackmd.io/@csci1710/rJm6XmjKT",
   },
   {
     name: "Reference Counting",
@@ -190,12 +190,12 @@ export const labAssignments: Assignment[] = [
   {
     name: "Proposal co-lab",
     dateRange: "Apr 02 → Apr 03, 2025",
-    href: "https://www.google.com",
+    // href: "https://www.google.com",
   },
   {
     name: "SAT 2 co-lab",
     dateRange: "Apr 16 → Apr 17, 2025",
-    href: "https://www.google.com",
+    // href: "https://www.google.com",
   },
 ];
 
