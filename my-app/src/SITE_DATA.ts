@@ -60,6 +60,334 @@ export const lectures: Lecture[] = [
       },
     ],
   },
+  // {
+  //   name: "Properties and Testing",
+  //   date: "Jan 24",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/properties/pbt.html",
+  //   recordingLink: "",
+  //   liveCodeLink: "https://csci1710.github.io/book/chapters/properties/pbt.py",
+  // },
+  // {
+  //   name: "Intro to Modeling in Froglet (Part 1, Basics)",
+  //   date: "Jan 27",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/ttt/ttt.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_1.frg",
+  // },
+  // {
+  //   name: "Intro to Modeling (Part 2, Transitions); Showcase",
+  //   date: "Jan 29",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/bst/bst.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_2_inclass.frg",
+  // },
+  // {
+  //   //name: "Design-Space Exploration and Constraint Solving",
+  //   name: "Intro to Modeling (Part 3, Traces)",
+  //   date: "Jan 31",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/adder/rca.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_3_inclass.frg",
+  // },
+  // {
+  //   //name: "Discrete Event Systems",
+  //   name: "Intro to Modeling (Part 4, FAQ)",
+  //   date: "Feb 03",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/qna/static.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_4_inclass.frg",
+  // },
+  // {
+  //   name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
+  //   date: "Feb 05",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/ttt/ttt_games.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/finite_and_inductive/ttt_finite.frg",
+  // },
+  // {
+  //   name: "Discrete Events and Traces (Part 2, Preservation)",
+  //   date: "Feb 07",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/inductive/bsearch.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/finite_and_inductive/ttt_finite.frg",
+  // },
+  // {
+  //   name: "Inductive Verification: Binary Search (Part 1)",
+  //   date: "Feb 10",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/bst/descent.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_template.frg",
+  // },
+  // {
+  //   name: "Inductive Verification: Binary Search (Part 2)",
+  //   date: "Feb 12",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/validation/validating_events.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_template.frg",
+  //   otherLinks: [
+  //     {
+  //       name: "Testing reachable",
+  //       link: "https://csci1710.github.io/book/chapters/finite_and_inductive/testing_reachable.frg",
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Inductive Verification: Binary Search (Part 3)",
+  //   date: "Feb 14",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/validation/validating_events.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_inclass.frg",
+  // },
+  // {
+  //   name: "Modeling syntax, semantics, and sets: Relational Forge",
+  //   date: "Feb 19",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/qna/events.html",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "Modeling syntax, semantics, and sets: Relational Forge",
+  //   date: "Feb 21",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/qna/events.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/booleans-inclass-1.frg",
+  // },
+  // {
+  //   name: "Join and Reachability",
+  //   date: "Feb 24",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/relations/modeling-booleans-1.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/reach.frg",
+  // },
+  // {
+  //   name: "Modeling Mutex (Part 1)",
+  //   date: "Feb 26",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/relations/sets-induction-mutex.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/mutex.frg",
+  // },
+  // {
+  //   name: "Modeling Mutex (Part 2)",
+  //   date: "Feb 28",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/relations/sets-beyond-assertions.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/mutex.frg",
+  // },
+  // {
+  //   name: "Liveness and Lassos",
+  //   date: "Mar 03",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/temporal/liveness_and_lassos.html",
+  //   recordingLink: "",
+  //   liveCodeLink: "https://csci1710.github.io/book/chapters/temporal/mutex.frg",
+  // },
+  // {
+  //   name: "Temporal Forge",
+  //   date: "Mar 05",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/temporal/temporal_operators.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
+  //   otherLinks: [
+  //     {
+  //       name: "Integer counter model",
+  //       link: "https://csci1710.github.io/book/chapters/temporal/counter.frg",
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Modeling Mutex (Part 3, Temporally)",
+  //   date: "Mar 07",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/temporal/temporal_operators_2.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
+  // },
+  // {
+  //   name: "Obligations and the Past",
+  //   date: "Mar 10",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/temporal/obligations_past.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
+  //   otherLinks: [
+  //     {
+  //       name: "Traffic lights model",
+  //       link: "https://csci1710.github.io/book/chapters/temporal/traffic.frg",
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "MST, Temporally",
+  //   date: "Mar 12",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://github.com/csci1710/public-examples/blob/main/2024/prim.frg",
+  // },
+  // {
+  //   name: "Peterson's Lock (Part 1)",
+  //   date: "Mar 14",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/temporal/fixing_lock_temporal.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/temporal/peterson.frg",
+  // },
+  // {
+  //   name: "Peterson's Lock (Part 2), What was the problem in Prim's?",
+  //   date: "Mar 17",
+  //   notesLink: "https://tnelson.github.io/forgebook/chapters/temporal/fixing_lock_temporal.html",
+  //   recordingLink: "",
+  //   liveCodeLink:
+  //     "https://csci1710.github.io/book/chapters/temporal/peterson.frg",
+  //   otherLinks: [
+  //     {
+  //       name: "Prim's algorithm model",
+  //       link: "https://github.com/csci1710/public-examples/blob/main/2024/prim.frg",
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "How Forge Works (Part 1)",
+  //   date: "Mar 19",
+  //   notesLink:
+  //     "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "Q&A (No notes)",
+  //   date: "Mar 21",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "Solving SAT (DPLL Part 1)",
+  //   date: "Mar 31",
+  //   notesLink:
+  //     "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "Solving SAT (DPLL Part 2)",
+  //   date: "Apr 02",
+  //   notesLink:
+  //     "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "Resolution (Part 1)",
+  //   date: "Apr 04",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "Resolution (Part 2)",
+  //   date: "Apr 07",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "Resolution (Part 3)",
+  //   date: "Apr 09",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "(Optional) Future of 1710",
+  //   date: "Apr 11",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "SMT (Whirlwind Tour)",
+  //   date: "Apr 14",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "SMT (Applications)",
+  //   date: "Apr 16",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "SMT (Algorithms)",
+  //   date: "Apr 18",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "SMT (CEGIS and Synthesis)",
+  //   date: "Apr 21",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "TBD (Topics by Request) or Guest",
+  //   date: "Apr 23",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "Reading Period (Possible Guest)",
+  //   date: "Apr 25",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "Reading Period (Possible Guest)",
+  //   date: "Apr 28",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "Reading Period (Possible Guest)",
+  //   date: "Apr 30",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "Reading Period (Possible Guest)",
+  //   date: "May 02",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
+  // {
+  //   name: "Reading Period (Possible Guest)",
+  //   date: "May 05",
+  //   notesLink: "",
+  //   recordingLink: "",
+  //   liveCodeLink: "",
+  // },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment
