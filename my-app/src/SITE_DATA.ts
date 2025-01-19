@@ -46,7 +46,8 @@ export const lectures: Lecture[] = [
   {
     name: "What is LfS?",
     date: "Jan 22",
-    // notesLink: "https://csci1710.github.io/book/chapters/manifesto.html",
+    notesLink:
+      "https://tnelson.github.io/forgebook/chapters/manifesto/manifesto.html",
     recordingLink: "",
     otherLinks: [
       {
@@ -240,7 +241,7 @@ export const policies: Resource[] = [
 export const importantLinks: Resource[] = [
   {
     name: "EdStem",
-    href: "https://edstem.org/us/courses/54376/discussion/",
+    href: "https://edstem.org/us/courses/73930/discussion",
   },
   { name: "Hours", href: "https://hours.cs.brown.edu/login" },
   {
@@ -264,7 +265,8 @@ export const guides: Resource[] = [
   },
   {
     name: "Toadus Ponens Guide",
-    href: "https://docs.google.com/document/d/1zdv6uF7jdC8CR-d73AojsH68jaLmNG3MwlcZ9R2lWpc/edit?usp=sharing",
+    href: "", // Greyed out for now
+    // href: "https://docs.google.com/document/d/1zdv6uF7jdC8CR-d73AojsH68jaLmNG3MwlcZ9R2lWpc/edit?usp=sharing",
   },
   {
     // Goes live later in semester
