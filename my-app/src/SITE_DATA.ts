@@ -471,9 +471,9 @@ export const homeworkAssignments: Assignment[] = [
 export const labAssignments: Assignment[] = [
   {
     name: "(Optional) Async Python",
-    dateRange: "Jan 25, 2025",
+    dateRange: "Jan 22, 2025",
     href: "https://hackmd.io/@csci1710/By-lPmstT",
-    autoReleaseDate: "Jan 23, 2025 09:45:00 EST",
+    autoReleaseDate: "Jan 22, 2025 09:45:00 EST",
   },
   {
     name: "Tic Tac Toe",
