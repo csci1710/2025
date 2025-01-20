@@ -634,7 +634,7 @@ export const htas: staffMember[] = [
     objectPosition: "center 65%",
     // alt_image: PUB + "/images/staff/megan_frog.jpeg",
     pronouns: "she/her",
-    bio: "Hi! I'm a junior from North Carolina studying computer science. I'm so excited to be an HTA for 1710! Outside of cs, I love sewing, baking, web dev in React, my cat, and doing jigsaw puzzles!",
+    bio: "Hi! I'm a junior from North Carolina studying computer science. I'm so excited to be an HTA for 1710! Outside of cs, I love sewing, baking, my cat, and doing jigsaw puzzles!",
     favorite_amphibian: "Team Frog",
     role: "HTA",
   },
