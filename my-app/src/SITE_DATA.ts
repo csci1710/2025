@@ -593,8 +593,7 @@ export const guides: Resource[] = [
   },
   {
     name: "Toadus Ponens Guide",
-    href: "", // Greyed out for now
-    // href: "https://docs.google.com/document/d/1zdv6uF7jdC8CR-d73AojsH68jaLmNG3MwlcZ9R2lWpc/edit?usp=sharing",
+    href: "https://docs.google.com/document/d/1zdv6uF7jdC8CR-d73AojsH68jaLmNG3MwlcZ9R2lWpc/edit?usp=sharing",
   },
   {
     // Goes live later in semester
