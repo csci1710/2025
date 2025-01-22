@@ -558,7 +558,7 @@ export const FAQLink: string =
 export const policies: Resource[] = [
   {
     name: "Syllabus",
-    href: "https://docs.google.com/document/d/1oX0zMFbLzYvUhUheEy1ak4AYdOlDhRbg97KvMHVt9MA/edit?usp=drive_link",
+    href: "https://docs.google.com/document/d/1tk0HNlvfhKPG8qVTdeZkbNdr1riRtZelWzsGt1NyZ7g/edit?usp=sharing",
   },
   {
     name: "Collaboration Policy",
