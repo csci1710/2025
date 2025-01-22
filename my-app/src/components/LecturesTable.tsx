@@ -22,7 +22,7 @@ export default function LecturesTable(props: LectureTableProps) {
         <p>
           The listed lecture schedule is prospective and subject to change. All
           lecture capture videos can be found on our 2025 Canvas{" "}
-          <a href="https://canvas.brown.edu/courses/1094402/external_tools/33943">
+          <a href="https://canvas.brown.edu/courses/1097832/external_tools/33943">
             media library page
           </a>
           .
