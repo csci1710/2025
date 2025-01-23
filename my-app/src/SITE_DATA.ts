@@ -60,13 +60,14 @@ export const lectures: Lecture[] = [
       },
     ],
   },
-  // {
-  //   name: "Properties and Testing",
-  //   date: "Jan 24",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/properties/pbt.html",
-  //   recordingLink: "",
-  //   liveCodeLink: "https://csci1710.github.io/book/chapters/properties/pbt.py",
-  // },
+  {
+    name: "Properties and Testing",
+    date: "Jan 24",
+    notesLink:
+      "https://tnelson.github.io/forgebook/chapters/properties/pbt.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
   // {
   //   name: "Intro to Modeling in Froglet (Part 1, Basics)",
   //   date: "Jan 27",
