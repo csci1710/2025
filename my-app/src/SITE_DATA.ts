@@ -68,14 +68,13 @@ export const lectures: Lecture[] = [
     recordingLink: "",
     liveCodeLink: "",
   },
-  // {
-  //   name: "Intro to Modeling in Froglet (Part 1, Basics)",
-  //   date: "Jan 27",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/ttt/ttt.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_1.frg",
-  // },
+  {
+    name: "Intro to Modeling in Froglet (Part 1, Basics)",
+    date: "Jan 27",
+    notesLink: "https://tnelson.github.io/forgebook/chapters/ttt/ttt.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
   // {
   //   name: "Intro to Modeling (Part 2, Transitions); Showcase",
   //   date: "Jan 29",
