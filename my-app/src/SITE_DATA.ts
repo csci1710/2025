@@ -83,15 +83,15 @@ export const lectures: Lecture[] = [
     recordingLink: "",
     liveCodeLink: "",
   },
-  // {
-  //   //name: "Design-Space Exploration and Constraint Solving",
-  //   name: "Intro to Modeling (Part 3, Traces)",
-  //   date: "Jan 31",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/adder/rca.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_3_inclass.frg",
-  // },
+  {
+    //name: "Design-Space Exploration and Constraint Solving",
+    name: "Intro to Modeling (Part 3, Traces)",
+    date: "Jan 31",
+    notesLink: "https://tnelson.github.io/forgebook/chapters/adder/rca.html",
+    recordingLink: "",
+    liveCodeLink:
+      "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_3_inclass.frg",
+  },
   // {
   //   //name: "Discrete Event Systems",
   //   name: "Intro to Modeling (Part 4, FAQ)",
@@ -479,7 +479,7 @@ export const labAssignments: Assignment[] = [
     name: "Tic Tac Toe",
     dateRange: "Jan 29 → Jan 30, 2025",
     href: "https://hackmd.io/@csci1710/HkOLBXstT",
-    autoReleaseDate: "Jan 29, 2025 20:30:00 EST",
+    autoReleaseDate: "Jan 29, 2025 12:30:00 EST",
   },
   {
     name: "N Queens",
