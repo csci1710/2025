@@ -1,5 +1,7 @@
 #lang forge/froglet 
 
+option run_sterling "ttt.js"
+
 // Players 
 abstract sig Player {}
 one sig X, O extends Player {}
@@ -23,6 +25,10 @@ pred starting[b: Board] {
     }
 }
 
+pred XTurn2[b: Board] {
+    remainder[#{row,col: Int | some b.board[row][col]}, 2] = 0
+}
+
 pred XTurn[b: Board] {
   // even number of entries
   // #X = #O
@@ -30,6 +36,13 @@ pred XTurn[b: Board] {
   = 
   #{row, col: Int | b.board[row][col] = O}
 }
+
+diffPreds: run {
+  some b: Board | {
+    not (XTurn[b] iff XTurn2[b])
+  }
+}
+
 pred OTurn[b: Board] {
   // defn in terms of XTurn?
   // not XTurn[b] // see notes
@@ -82,20 +95,24 @@ pred move[pre: Board, r, c: Int, p: Player, post: Board] {
     no pre.board[r][c]
     p = X implies XTurn[pre]
     p = O implies OTurn[pre]
-    
     // ACTION 
     post.board[r][c] = p
     // FRAME (nothing else changes)
     all r2, c2: Int | (r2 != r or c2 != c) => {
         post.board[r2][c2] = pre.board[r2][c2]
     }
-
-
 }
 
+///////////////////////////////////////
+// Let's do some validation
+///////////////////////////////////////
 
-// turns 
-// end conditions 
-// valid placements
-// valid states 
-// 
+pred all_boards_starting {
+    all b: Board | starting[b]
+}
+example emptyBoardIsStart is all_boards_starting for {
+    Board = `Board0 
+    X = `X   O = `O
+    Player = X + O 
+    no `Board0.board 
+}
