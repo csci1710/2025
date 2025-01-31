@@ -17,7 +17,7 @@ pred wellformed[b: Board] {
     }
 }
 
-run {some b: Int | wellformed[b]} for exactly 2 Board
+run {some b: Board | wellformed[b]} for exactly 2 Board
 // turns 
 // end conditions 
 // valid placements
