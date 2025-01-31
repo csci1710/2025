@@ -81,7 +81,8 @@ export const lectures: Lecture[] = [
     date: "Jan 29",
     notesLink: "https://tnelson.github.io/forgebook/chapters/bst/bst.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan29_ttt.frg",
   },
   {
     //name: "Design-Space Exploration and Constraint Solving",
@@ -89,8 +90,7 @@ export const lectures: Lecture[] = [
     date: "Jan 31",
     notesLink: "https://tnelson.github.io/forgebook/chapters/adder/rca.html",
     recordingLink: "",
-    liveCodeLink:
-      "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_3_inclass.frg",
+    liveCodeLink: "",
   },
   // {
   //   //name: "Discrete Event Systems",
