@@ -90,17 +90,17 @@ export const lectures: Lecture[] = [
     date: "Jan 31",
     notesLink: "https://tnelson.github.io/forgebook/chapters/adder/rca.html",
     recordingLink: "",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan31_ttt.frg",
+  },
+  {
+    //name: "Discrete Event Systems",
+    name: "Intro to Modeling (Part 4, FAQ)",
+    date: "Feb 03",
+    notesLink: "https://tnelson.github.io/forgebook/chapters/qna/static.html",
+    recordingLink: "",
     liveCodeLink: "",
   },
-  // {
-  //   //name: "Discrete Event Systems",
-  //   name: "Intro to Modeling (Part 4, FAQ)",
-  //   date: "Feb 03",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/qna/static.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/intro_modeling/intro_modeling_ttt_4_inclass.frg",
-  // },
   // {
   //   name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
   //   date: "Feb 05",
