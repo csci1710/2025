@@ -485,13 +485,13 @@ export const labAssignments: Assignment[] = [
     name: "N Queens",
     dateRange: "Feb 05 → Feb 07, 2025",
     href: "https://hackmd.io/@csci1710/BkYfImjKp",
-    autoReleaseDate: "Feb 05, 2025 20:30:00 EST",
+    autoReleaseDate: "Feb 05, 2025 12:30:00 EST",
   },
   {
     name: "Ring Election",
     dateRange: "Feb 12 → Feb 13, 2025",
     href: "https://hackmd.io/@csci1710/ryC5S7jt6",
-    autoReleaseDate: "Feb 12, 2025 20:30:00 EST",
+    autoReleaseDate: "Feb 12, 2025 12:30:00 EST",
   },
   {
     name: "Curiosity co-lab",
@@ -502,19 +502,19 @@ export const labAssignments: Assignment[] = [
     name: "Reference Counting",
     dateRange: "Feb 26 → Feb 27, 2025",
     href: "https://hackmd.io/@csci1710/S1LXKW2t6",
-    autoReleaseDate: "Feb 26, 2025 20:30:00 EST",
+    autoReleaseDate: "Feb 26, 2025 12:30:00 EST",
   },
   {
     name: "Hotel Case Study",
     dateRange: "Mar 05 → Mar 06, 2025",
     href: "https://drive.google.com/file/d/1R6Lt2wQkR3hz1G6CDnE-tP9wkwJK8qT2/view?usp=sharing",
-    autoReleaseDate: "Mar 05, 2025 20:30:00 EST",
+    autoReleaseDate: "Mar 05, 2025 12:30:00 EST",
   },
   {
     name: "Dining Blacksmiths",
     dateRange: "Mar 12 → Mar 13, 2025",
     href: "https://hackmd.io/@csci1710/HkbhU7sta",
-    autoReleaseDate: "Mar 12, 2025 20:30:00 EST",
+    autoReleaseDate: "Mar 12, 2025 12:30:00 EST",
   },
   {
     name: "Proposal co-lab",
