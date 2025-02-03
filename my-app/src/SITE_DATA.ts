@@ -99,16 +99,17 @@ export const lectures: Lecture[] = [
     date: "Feb 03",
     notesLink: "https://tnelson.github.io/forgebook/chapters/qna/static.html",
     recordingLink: "",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb03_ttt.frg",
+  },
+  {
+    name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
+    date: "Feb 05",
+    notesLink:
+      "https://tnelson.github.io/forgebook/chapters/ttt/ttt_games.html",
+    recordingLink: "",
     liveCodeLink: "",
   },
-  // {
-  //   name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
-  //   date: "Feb 05",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/ttt/ttt_games.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/finite_and_inductive/ttt_finite.frg",
-  // },
   // {
   //   name: "Discrete Events and Traces (Part 2, Preservation)",
   //   date: "Feb 07",
