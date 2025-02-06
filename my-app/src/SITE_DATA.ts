@@ -110,14 +110,14 @@ export const lectures: Lecture[] = [
     recordingLink: "",
     liveCodeLink: "",
   },
-  // {
-  //   name: "Discrete Events and Traces (Part 2, Preservation)",
-  //   date: "Feb 07",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/inductive/bsearch.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/finite_and_inductive/ttt_finite.frg",
-  // },
+  {
+    name: "Discrete Events and Traces (Part 2, Preservation)",
+    date: "Feb 07",
+    notesLink:
+      "https://tnelson.github.io/forgebook/chapters/inductive/bsearch.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
   // {
   //   name: "Inductive Verification: Binary Search (Part 1)",
   //   date: "Feb 10",
