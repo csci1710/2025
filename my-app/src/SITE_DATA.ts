@@ -409,7 +409,7 @@ export const homeworkAssignments: Assignment[] = [
     name: "Physical Keys",
     dateRange: "Feb 7 → Feb 13, 2025",
     href: "https://hackmd.io/@csci1710/ByLnzQstT",
-    autoReleaseDate: "Feb 07, 2025 11:00:00 EST",
+    autoReleaseDate: "Feb 07, 2025 17:00:00 EST",
   },
   {
     name: "Hotel Locking",
