@@ -118,14 +118,13 @@ export const lectures: Lecture[] = [
     recordingLink: "",
     liveCodeLink: "",
   },
-  // {
-  //   name: "Inductive Verification: Binary Search (Part 1)",
-  //   date: "Feb 10",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/bst/descent.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_template.frg",
-  // },
+  {
+    name: "Inductive Verification: Binary Search (Part 1)",
+    date: "Feb 10",
+    notesLink: "https://tnelson.github.io/forgebook/chapters/bst/descent.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
   // {
   //   name: "Inductive Verification: Binary Search (Part 2)",
   //   date: "Feb 12",
