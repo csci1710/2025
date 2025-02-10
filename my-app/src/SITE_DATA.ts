@@ -121,24 +121,20 @@ export const lectures: Lecture[] = [
   {
     name: "Inductive Verification: Binary Search (Part 1)",
     date: "Feb 10",
-    notesLink: "https://tnelson.github.io/forgebook/chapters/inductive/bsearch.html",
+    notesLink:
+      "https://tnelson.github.io/forgebook/chapters/inductive/bsearch.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb10_bsearch.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb10_bsearch.frg",
   },
-  // {
-  //   name: "Inductive Verification: Binary Search (Part 2)",
-  //   date: "Feb 12",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/validation/validating_events.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_template.frg",
-  //   otherLinks: [
-  //     {
-  //       name: "Testing reachable",
-  //       link: "https://csci1710.github.io/book/chapters/finite_and_inductive/testing_reachable.frg",
-  //     },
-  //   ],
-  // },
+  {
+    name: "Inductive Verification: Binary Search (Part 2)",
+    date: "Feb 12",
+    notesLink:
+      "https://tnelson.github.io/forgebook/chapters/validation/validating_events.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
   // {
   //   name: "Inductive Verification: Binary Search (Part 3)",
   //   date: "Feb 14",
