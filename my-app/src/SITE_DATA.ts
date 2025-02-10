@@ -121,9 +121,9 @@ export const lectures: Lecture[] = [
   {
     name: "Inductive Verification: Binary Search (Part 1)",
     date: "Feb 10",
-    notesLink: "https://tnelson.github.io/forgebook/chapters/bst/descent.html",
+    notesLink: "https://tnelson.github.io/forgebook/chapters/inductive/bsearch.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb10_bsearch.frg",
   },
   // {
   //   name: "Inductive Verification: Binary Search (Part 2)",
