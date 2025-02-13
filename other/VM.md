@@ -1,6 +1,6 @@
 # Forge VM
 
-The latest version is [`forge-vm-021325.zip`](cs.brown.edu/~tbn/files/forge-vm-021325.zip).
+The latest version is [`forge-vm-021325.zip`](http://cs.brown.edu/~tbn/files/forge-vm-021325.zip).
 
 While we still suggest a normal installation, it is possible that some prospective users will have issues (e.g., with Racket, Java, lack access to install applications, etc). To help run Forge in these situations, we have created a VM image. (This reduces potential snags with visualization-in-browser that might be seen in a Docker container.)
 
