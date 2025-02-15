@@ -585,7 +585,11 @@ export const guides: Resource[] = [
     href: "https://hackmd.io/@csci1710/r1rZAWeo6",
   },
   {
-    name: "Forge Documentation",
+    name: "Forge Book",
+    href: "https://csci1710.github.io/book/",
+  },
+  {
+    name: "Forge Tool Documentation",
     href: "https://csci1710.github.io/forge-documentation/",
   },
   {
