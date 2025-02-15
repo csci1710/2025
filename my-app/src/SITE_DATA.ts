@@ -130,11 +130,16 @@ export const lectures: Lecture[] = [
   {
     name: "Inductive Verification: Binary Search (Part 2)",
     date: "Feb 12",
-    notesLink:
-      "",
+    notesLink: "",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb12_bsearch.frg",
-    otherLinks: [{name: "TTT Games", link: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb12_ttt.frg"}]
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb12_bsearch.frg",
+    otherLinks: [
+      {
+        name: "TTT Games",
+        link: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb12_ttt.frg",
+      },
+    ],
   },
   // {
   //   name: "Inductive Verification: Binary Search (Part 3)",
@@ -530,7 +535,7 @@ export const projectAssignments: Assignment[] = [
     name: "Curiosity Modeling",
     dateRange: "Feb 14 → Feb 27, 2025",
     href: "https://hackmd.io/@csci1710/rJm6XmjKT",
-    autoReleaseDate: "Feb 16, 2025 11:00:00 EST",
+    autoReleaseDate: "Feb 14, 2025 11:00:00 EST",
   },
   {
     name: "Final Project (Proposal)",
