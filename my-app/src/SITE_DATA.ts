@@ -141,14 +141,14 @@ export const lectures: Lecture[] = [
       },
     ],
   },
-  // {
-  //   name: "Inductive Verification: Binary Search (Part 3)",
-  //   date: "Feb 14",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/validation/validating_events.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/finite_and_inductive/binarysearch_inclass.frg",
-  // },
+  {
+    name: "Inductive Verification: Binary Search (Part 3)",
+    date: "Feb 14",
+    notesLink:
+      "https://tnelson.github.io/forgebook/chapters/validation/validating_events.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
   // {
   //   name: "Modeling syntax, semantics, and sets: Relational Forge",
   //   date: "Feb 19",
