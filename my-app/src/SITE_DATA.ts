@@ -425,16 +425,16 @@ export const homeworkAssignments: Assignment[] = [
     autoReleaseDate: "Feb 28, 2025 11:00:00 EST",
   },
   {
+    name: "Hotel Locking (Lab Reflection)",
+    dateRange: "Mar 06 → Mar 9, 2025",
+    href: "https://hackmd.io/@csci1710/B1UdLQjKp",
+    autoReleaseDate: "Mar 06, 2025 20:30:00 EST",
+  },
+  {
     name: "Temporal Modeling",
     dateRange: "Mar 07 → Mar 13, 2025",
     href: "https://hackmd.io/@csci1710/HJk8E7jFa",
     autoReleaseDate: "Mar 07, 2025 11:00:00 EST",
-  },
-  {
-    name: "Hotel Locking (Lab Portion)",
-    dateRange: "Mar 06 → Mar 9, 2025",
-    href: "https://hackmd.io/@csci1710/B1UdLQjKp",
-    autoReleaseDate: "Mar 06, 2025 20:30:00 EST",
   },
   {
     name: "Elevator Critique",
