@@ -47,7 +47,7 @@ export const lectures: Lecture[] = [
     name: "What is LfS?",
     date: "Jan 22",
     notesLink:
-      "https://tnelson.github.io/forgebook/chapters/manifesto/manifesto.html",
+      "https://csci1710.github.io/book/chapters/manifesto/manifesto.html",
     recordingLink: "",
     otherLinks: [
       {
@@ -64,14 +64,14 @@ export const lectures: Lecture[] = [
     name: "Properties and Testing",
     date: "Jan 24",
     notesLink:
-      "https://tnelson.github.io/forgebook/chapters/properties/pbt.html",
+      "https://csci1710.github.io/book/chapters/properties/pbt.html",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
     name: "Intro to Modeling in Froglet (Part 1, Basics)",
     date: "Jan 27",
-    notesLink: "https://tnelson.github.io/forgebook/chapters/ttt/ttt.html",
+    notesLink: "https://csci1710.github.io/book/chapters/ttt/ttt.html",
     recordingLink: "",
     liveCodeLink:
       "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan27_ttt.frg",
@@ -79,7 +79,7 @@ export const lectures: Lecture[] = [
   {
     name: "Intro to Modeling (Part 2, Transitions); Showcase",
     date: "Jan 29",
-    notesLink: "https://tnelson.github.io/forgebook/chapters/bst/bst.html",
+    notesLink: "https://csci1710.github.io/book/chapters/bst/bst.html",
     recordingLink: "",
     liveCodeLink:
       "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan29_ttt.frg",
@@ -88,7 +88,7 @@ export const lectures: Lecture[] = [
     //name: "Design-Space Exploration and Constraint Solving",
     name: "Intro to Modeling (Part 3, Traces)",
     date: "Jan 31",
-    notesLink: "https://tnelson.github.io/forgebook/chapters/adder/rca.html",
+    notesLink: "https://csci1710.github.io/book/chapters/adder/rca.html",
     recordingLink: "",
     liveCodeLink:
       "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/jan31_ttt.frg",
@@ -97,7 +97,7 @@ export const lectures: Lecture[] = [
     //name: "Discrete Event Systems",
     name: "Intro to Modeling (Part 4, FAQ)",
     date: "Feb 03",
-    notesLink: "https://tnelson.github.io/forgebook/chapters/qna/static.html",
+    notesLink: "https://csci1710.github.io/book/chapters/qna/static.html",
     recordingLink: "",
     liveCodeLink:
       "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb03_ttt.frg",
@@ -106,7 +106,7 @@ export const lectures: Lecture[] = [
     name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
     date: "Feb 05",
     notesLink:
-      "https://tnelson.github.io/forgebook/chapters/ttt/ttt_games.html",
+      "https://csci1710.github.io/book/chapters/ttt/ttt_games.html",
     recordingLink: "",
     liveCodeLink: "",
   },
@@ -114,7 +114,7 @@ export const lectures: Lecture[] = [
     name: "Discrete Events and Traces (Part 2, Preservation)",
     date: "Feb 07",
     notesLink:
-      "https://tnelson.github.io/forgebook/chapters/inductive/bsearch.html",
+      "https://csci1710.github.io/book/chapters/inductive/bsearch.html",
     recordingLink: "",
     liveCodeLink: "",
   },
@@ -122,7 +122,7 @@ export const lectures: Lecture[] = [
     name: "Inductive Verification: Binary Search (Part 1)",
     date: "Feb 10",
     notesLink:
-      "https://tnelson.github.io/forgebook/chapters/inductive/bsearch.html",
+      "https://csci1710.github.io/book/chapters/inductive/bsearch.html",
     recordingLink: "",
     liveCodeLink:
       "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb10_bsearch.frg",
@@ -145,28 +145,31 @@ export const lectures: Lecture[] = [
     name: "Inductive Verification: Binary Search (Part 3)",
     date: "Feb 14",
     notesLink:
-      "https://tnelson.github.io/forgebook/chapters/validation/validating_events.html",
+      "https://csci1710.github.io/book/chapters/validation/validating_events.html",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
     name: "Modeling syntax, semantics, and sets: Relational Forge",
     date: "Feb 19",
-    notesLink: "https://csci1710.github.io/book/chapters/relations/modeling-booleans-1.html",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/relations/modeling-booleans-1.html",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
     name: "Modeling syntax, semantics, and sets: Relational Forge",
     date: "Feb 21",
-    notesLink: "https://csci1710.github.io/book/chapters/relations/modeling-booleans-1.html",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/relations/modeling-booleans-1.html",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
     name: "Join and Reachability",
     date: "Feb 24",
-    notesLink: "https://csci1710.github.io/book/chapters/relations/reachability.html",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/relations/reachability.html",
     recordingLink: "",
     liveCodeLink: "",
   },
@@ -189,14 +192,14 @@ export const lectures: Lecture[] = [
   // {
   //   name: "Liveness and Lassos",
   //   date: "Mar 03",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/temporal/liveness_and_lassos.html",
+  //   notesLink: "https://csci1710.github.io/book/chapters/temporal/liveness_and_lassos.html",
   //   recordingLink: "",
   //   liveCodeLink: "https://csci1710.github.io/book/chapters/temporal/mutex.frg",
   // },
   // {
   //   name: "Temporal Forge",
   //   date: "Mar 05",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/temporal/temporal_operators.html",
+  //   notesLink: "https://csci1710.github.io/book/chapters/temporal/temporal_operators.html",
   //   recordingLink: "",
   //   liveCodeLink:
   //     "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
@@ -210,7 +213,7 @@ export const lectures: Lecture[] = [
   // {
   //   name: "Modeling Mutex (Part 3, Temporally)",
   //   date: "Mar 07",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/temporal/temporal_operators_2.html",
+  //   notesLink: "https://csci1710.github.io/book/chapters/temporal/temporal_operators_2.html",
   //   recordingLink: "",
   //   liveCodeLink:
   //     "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
@@ -218,7 +221,7 @@ export const lectures: Lecture[] = [
   // {
   //   name: "Obligations and the Past",
   //   date: "Mar 10",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/temporal/obligations_past.html",
+  //   notesLink: "https://csci1710.github.io/book/chapters/temporal/obligations_past.html",
   //   recordingLink: "",
   //   liveCodeLink:
   //     "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
@@ -240,7 +243,7 @@ export const lectures: Lecture[] = [
   // {
   //   name: "Peterson's Lock (Part 1)",
   //   date: "Mar 14",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/temporal/fixing_lock_temporal.html",
+  //   notesLink: "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
   //   recordingLink: "",
   //   liveCodeLink:
   //     "https://csci1710.github.io/book/chapters/temporal/peterson.frg",
@@ -248,7 +251,7 @@ export const lectures: Lecture[] = [
   // {
   //   name: "Peterson's Lock (Part 2), What was the problem in Prim's?",
   //   date: "Mar 17",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/temporal/fixing_lock_temporal.html",
+  //   notesLink: "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
   //   recordingLink: "",
   //   liveCodeLink:
   //     "https://csci1710.github.io/book/chapters/temporal/peterson.frg",
