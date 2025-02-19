@@ -37,8 +37,8 @@ export const announcementInfo = {
   buttonLink:
     "https://docs.google.com/forms/d/e/1FAIpQLSex6-ShU5azGLUQtaxsPRagVRiUc3ShDy7F-z0KsrFl4rqviw/viewform?usp=dialog",
   // Set & Forget tools:
-  autoReleaseDate: "Mar 3, 2025 09:45:00 EST", // Automatically shows announcement on this date/time EST
-  autoDismissDate: "Mar 4, 2025 09:00:00 EST", // Automatically removes announcement on this date/time EST
+  autoReleaseDate: "Feb 19, 2025 09:45:00 EST", // Automatically shows announcement on this date/time EST
+  autoDismissDate: "May 14, 2025 09:00:00 EST", // Automatically removes announcement on this date/time EST
   // Announcement will be shown on page load and manually dismissable between the above two dates
 };
 
