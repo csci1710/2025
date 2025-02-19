@@ -149,33 +149,31 @@ export const lectures: Lecture[] = [
     recordingLink: "",
     liveCodeLink: "",
   },
-  // {
-  //   name: "Modeling syntax, semantics, and sets: Relational Forge",
-  //   date: "Feb 19",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/qna/events.html",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
-  // {
-  //   name: "Modeling syntax, semantics, and sets: Relational Forge",
-  //   date: "Feb 21",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/qna/events.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/booleans-inclass-1.frg",
-  // },
-  // {
-  //   name: "Join and Reachability",
-  //   date: "Feb 24",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/relations/modeling-booleans-1.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/reach.frg",
-  // },
+  {
+    name: "Modeling syntax, semantics, and sets: Relational Forge",
+    date: "Feb 19",
+    notesLink: "https://csci1710.github.io/book/chapters/relations/modeling-booleans-1.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Modeling syntax, semantics, and sets: Relational Forge",
+    date: "Feb 21",
+    notesLink: "https://csci1710.github.io/book/chapters/relations/modeling-booleans-1.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Join and Reachability",
+    date: "Feb 24",
+    notesLink: "https://csci1710.github.io/book/chapters/relations/reachability.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
   // {
   //   name: "Modeling Mutex (Part 1)",
   //   date: "Feb 26",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/relations/sets-induction-mutex.html",
+  //   notesLink: "https://csci1710.github.io/book/chapters/relations/sets-induction-mutex.html",
   //   recordingLink: "",
   //   liveCodeLink:
   //     "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/mutex.frg",
@@ -183,7 +181,7 @@ export const lectures: Lecture[] = [
   // {
   //   name: "Modeling Mutex (Part 2)",
   //   date: "Feb 28",
-  //   notesLink: "https://tnelson.github.io/forgebook/chapters/relations/sets-beyond-assertions.html",
+  //   notesLink: "https://csci1710.github.io/book/chapters/relations/sets-induction-mutex.html",
   //   recordingLink: "",
   //   liveCodeLink:
   //     "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/mutex.frg",
