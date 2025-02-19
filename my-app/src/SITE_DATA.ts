@@ -35,7 +35,7 @@ export const announcementInfo = {
   message: "We'd love to hear what you think, submit anonymous feedback!",
   buttonText: "Give Feedback",
   buttonLink:
-    "https://docs.google.com/forms/d/1KreaxonPm0yHkpdu0Pg9bagNk3ygip3K7fcQNIsajhQ/viewform?edit_requested=true",
+    "https://docs.google.com/forms/d/e/1FAIpQLSex6-ShU5azGLUQtaxsPRagVRiUc3ShDy7F-z0KsrFl4rqviw/viewform?usp=dialog",
   // Set & Forget tools:
   autoReleaseDate: "Mar 3, 2025 09:45:00 EST", // Automatically shows announcement on this date/time EST
   autoDismissDate: "Mar 4, 2025 09:00:00 EST", // Automatically removes announcement on this date/time EST
@@ -63,8 +63,7 @@ export const lectures: Lecture[] = [
   {
     name: "Properties and Testing",
     date: "Jan 24",
-    notesLink:
-      "https://csci1710.github.io/book/chapters/properties/pbt.html",
+    notesLink: "https://csci1710.github.io/book/chapters/properties/pbt.html",
     recordingLink: "",
     liveCodeLink: "",
   },
@@ -105,8 +104,7 @@ export const lectures: Lecture[] = [
   {
     name: "Discrete Events and Traces (Part 1, Doing Nothing Productively)",
     date: "Feb 05",
-    notesLink:
-      "https://csci1710.github.io/book/chapters/ttt/ttt_games.html",
+    notesLink: "https://csci1710.github.io/book/chapters/ttt/ttt_games.html",
     recordingLink: "",
     liveCodeLink: "",
   },
