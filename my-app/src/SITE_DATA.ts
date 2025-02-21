@@ -161,7 +161,7 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/relations/modeling-booleans-1.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb21_boolean.frg",
   },
   {
     name: "Join and Reachability",
