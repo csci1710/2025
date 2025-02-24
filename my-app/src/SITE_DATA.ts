@@ -169,7 +169,7 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/relations/reachability.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb24_join.frg",
   },
   // {
   //   name: "Modeling Mutex (Part 1)",
