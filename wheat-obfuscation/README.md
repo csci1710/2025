@@ -76,7 +76,7 @@ Each test in the grader should have a corresponding hint, to be provided if that
 
 ## Encrypting these files
 
-Once you have these files, in a directory `<src-directory>`, you can encryption files as follows:
+Once you have these files, in a directory `<src-directory>`, you can encrypt files as follows:
 `ts-node encryption-tool.ts <src-directory> <target directory>`
 
 This will encrypt and copy over files to the target directory. If the target directory is in this repository, you will have to add and push these files to the repository. Typically, the `<target directory>` should be `my-app/public/toadusponensfiles`.
