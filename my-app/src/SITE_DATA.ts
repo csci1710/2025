@@ -171,14 +171,14 @@ export const lectures: Lecture[] = [
     recordingLink: "",
     liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb24_join.frg",
   },
-  // {
-  //   name: "Modeling Mutex (Part 1)",
-  //   date: "Feb 26",
-  //   notesLink: "https://csci1710.github.io/book/chapters/relations/sets-induction-mutex.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/mutex.frg",
-  // },
+  {
+    name: "Modeling Mutex (Part 1)",
+    date: "Feb 26",
+    notesLink: "https://csci1710.github.io/book/chapters/relations/sets-induction-mutex.html",
+    recordingLink: "",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb26_mutex.frg",
+  },
   // {
   //   name: "Modeling Mutex (Part 2)",
   //   date: "Feb 28",
