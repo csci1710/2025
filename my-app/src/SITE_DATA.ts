@@ -179,14 +179,14 @@ export const lectures: Lecture[] = [
     liveCodeLink:
       "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb26_mutex.frg",
   },
-  // {
-  //   name: "Modeling Mutex (Part 2)",
-  //   date: "Feb 28",
-  //   notesLink: "https://csci1710.github.io/book/chapters/relations/sets-induction-mutex.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/sets-and-boolean-logic/mutex.frg",
-  // },
+  {
+    name: "Modeling Mutex (Part 2)",
+    date: "Feb 28",
+    notesLink: "https://csci1710.github.io/book/chapters/relations/sets-induction-mutex.html",
+    recordingLink: "",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb28_mutex.frg",
+  },
   // {
   //   name: "Liveness and Lassos",
   //   date: "Mar 03",
