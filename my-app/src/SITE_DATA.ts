@@ -187,87 +187,81 @@ export const lectures: Lecture[] = [
     liveCodeLink:
       "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb28_mutex.frg",
   },
-  // {
-  //   name: "Liveness and Lassos",
-  //   date: "Mar 03",
-  //   notesLink: "https://csci1710.github.io/book/chapters/temporal/liveness_and_lassos.html",
-  //   recordingLink: "",
-  //   liveCodeLink: "https://csci1710.github.io/book/chapters/temporal/mutex.frg",
-  // },
-  // {
-  //   name: "Temporal Forge",
-  //   date: "Mar 05",
-  //   notesLink: "https://csci1710.github.io/book/chapters/temporal/temporal_operators.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
-  //   otherLinks: [
-  //     {
-  //       name: "Integer counter model",
-  //       link: "https://csci1710.github.io/book/chapters/temporal/counter.frg",
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "Modeling Mutex (Part 3, Temporally)",
-  //   date: "Mar 07",
-  //   notesLink: "https://csci1710.github.io/book/chapters/temporal/temporal_operators_2.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
-  // },
-  // {
-  //   name: "Obligations and the Past",
-  //   date: "Mar 10",
-  //   notesLink: "https://csci1710.github.io/book/chapters/temporal/obligations_past.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/temporal/mutex_temporal.frg",
-  //   otherLinks: [
-  //     {
-  //       name: "Traffic lights model",
-  //       link: "https://csci1710.github.io/book/chapters/temporal/traffic.frg",
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "MST, Temporally",
-  //   date: "Mar 12",
-  //   notesLink: "",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://github.com/csci1710/public-examples/blob/main/2024/prim.frg",
-  // },
-  // {
-  //   name: "Peterson's Lock (Part 1)",
-  //   date: "Mar 14",
-  //   notesLink: "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/temporal/peterson.frg",
-  // },
-  // {
-  //   name: "Peterson's Lock (Part 2), What was the problem in Prim's?",
-  //   date: "Mar 17",
-  //   notesLink: "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
-  //   recordingLink: "",
-  //   liveCodeLink:
-  //     "https://csci1710.github.io/book/chapters/temporal/peterson.frg",
-  //   otherLinks: [
-  //     {
-  //       name: "Prim's algorithm model",
-  //       link: "https://github.com/csci1710/public-examples/blob/main/2024/prim.frg",
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "How Forge Works (Part 1)",
-  //   date: "Mar 19",
-  //   notesLink:
-  //     "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
+  {
+    name: "Liveness and Lassos",
+    date: "Mar 03",
+    notesLink: "https://csci1710.github.io/book/chapters/temporal/liveness_and_lassos.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Temporal Forge",
+    date: "Mar 05",
+    notesLink: "https://csci1710.github.io/book/chapters/temporal/temporal_operators.html",
+    recordingLink: "",
+    liveCodeLink: "",
+    // otherLinks: [
+    //   {
+    //     name: "Integer counter model",
+    //     link: "https://csci1710.github.io/book/chapters/temporal/counter.frg",
+    //   },
+    // ],
+  },
+  {
+    name: "Modeling Mutex (Part 3, Temporally)",
+    date: "Mar 07",
+    notesLink: "https://csci1710.github.io/book/chapters/temporal/temporal_operators_2.html",
+    recordingLink: "",
+    liveCodeLink: ""
+  },
+  {
+    name: "Obligations and the Past",
+    date: "Mar 10",
+    notesLink: "https://csci1710.github.io/book/chapters/temporal/obligations_past.html",
+    recordingLink: "",
+    liveCodeLink: "",
+    // otherLinks: [
+    //   {
+    //     name: "Traffic lights model",
+    //     link: "https://csci1710.github.io/book/chapters/temporal/traffic.frg",
+    //   },
+    // ],
+  },
+  {
+    name: "Modeling Temporal Logic, Data Structures",
+    date: "Mar 12",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Peterson's Lock (Part 1)",
+    date: "Mar 14",
+    notesLink: "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
+  {
+    name: "Peterson's Lock (Part 2)",
+    date: "Mar 17",
+    notesLink: "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
+    recordingLink: "",
+    liveCodeLink: "",
+    // otherLinks: [
+    //   {
+    //     name: "Prim's algorithm model",
+    //     link: "https://github.com/csci1710/public-examples/blob/main/2024/prim.frg",
+    //   },
+    // ],
+  },
+  {
+    name: "How Forge Works (Part 1)",
+    date: "Mar 19",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
   // {
   //   name: "Q&A (No notes)",
   //   date: "Mar 21",
