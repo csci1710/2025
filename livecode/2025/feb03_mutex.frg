@@ -141,7 +141,36 @@ req_me_consec: assert all pre, post: State |
 // If a process indicates interest by flag=true, it will eventually
 //  get access. 
 
+pred req_non_starvation {
+    all p: Process | {
+        all s: State | {
+            // if p is interested then 
+            // some later state where p gets access
+        }
+    }
+}
+
+
 // (3) Non-deadlock of the system 
 //   Can't have _no_ progress of the system at some point.
 
+
+
+one sig Trace {
+    initialState: one State,
+    nextState: pfunc State -> State 
+}
+
+pred trace {
+    no Trace.initialState.~(Trace.nextState)
+    init[Trace.initialState]
+    all s: State | some Trace.nextState[s] => 
+        delta[s, Trace.nextState[s]]
+}
+pred lasso {
+    trace 
+    // some state can reach itself (the cycle)
+    // uniqueness
+    // ...
+}
 
