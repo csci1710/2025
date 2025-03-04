@@ -153,7 +153,8 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/relations/modeling-booleans-1.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb19_boolean.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb19_boolean.frg",
   },
   {
     name: "Modeling syntax, semantics, and sets: Relational Forge",
@@ -161,7 +162,8 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/relations/modeling-booleans-1.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb21_boolean.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb21_boolean.frg",
   },
   {
     name: "Join and Reachability",
@@ -169,12 +171,14 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/relations/reachability.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb24_join.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb24_join.frg",
   },
   {
     name: "Modeling Mutex (Part 1)",
     date: "Feb 26",
-    notesLink: "https://csci1710.github.io/book/chapters/relations/sets-induction-mutex.html",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/relations/sets-induction-mutex.html",
     recordingLink: "",
     liveCodeLink:
       "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb26_mutex.frg",
@@ -182,7 +186,8 @@ export const lectures: Lecture[] = [
   {
     name: "Modeling Mutex (Part 2)",
     date: "Feb 28",
-    notesLink: "https://csci1710.github.io/book/chapters/relations/sets-induction-mutex.html",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/relations/sets-induction-mutex.html",
     recordingLink: "",
     liveCodeLink:
       "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/feb28_mutex.frg",
@@ -190,14 +195,16 @@ export const lectures: Lecture[] = [
   {
     name: "Liveness and Lassos",
     date: "Mar 03",
-    notesLink: "https://csci1710.github.io/book/chapters/temporal/liveness_and_lassos.html",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/temporal/liveness_and_lassos.html",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
     name: "Temporal Forge",
     date: "Mar 05",
-    notesLink: "https://csci1710.github.io/book/chapters/temporal/temporal_operators.html",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/temporal/temporal_operators.html",
     recordingLink: "",
     liveCodeLink: "",
     // otherLinks: [
@@ -210,14 +217,16 @@ export const lectures: Lecture[] = [
   {
     name: "Modeling Mutex (Part 3, Temporally)",
     date: "Mar 07",
-    notesLink: "https://csci1710.github.io/book/chapters/temporal/temporal_operators_2.html",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/temporal/temporal_operators_2.html",
     recordingLink: "",
-    liveCodeLink: ""
+    liveCodeLink: "",
   },
   {
     name: "Obligations and the Past",
     date: "Mar 10",
-    notesLink: "https://csci1710.github.io/book/chapters/temporal/obligations_past.html",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/temporal/obligations_past.html",
     recordingLink: "",
     liveCodeLink: "",
     // otherLinks: [
@@ -237,14 +246,16 @@ export const lectures: Lecture[] = [
   {
     name: "Peterson's Lock (Part 1)",
     date: "Mar 14",
-    notesLink: "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
     name: "Peterson's Lock (Part 2)",
     date: "Mar 17",
-    notesLink: "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
     recordingLink: "",
     liveCodeLink: "",
     // otherLinks: [
@@ -419,9 +430,9 @@ export const homeworkAssignments: Assignment[] = [
   },
   {
     name: "Hotel Locking (Lab Reflection)",
-    dateRange: "Mar 06 → Mar 9, 2025",
+    dateRange: "Mar 05 → Mar 07, 2025",
     href: "https://hackmd.io/@csci1710/B1UdLQjKp",
-    autoReleaseDate: "Mar 06, 2025 20:30:00 EST",
+    autoReleaseDate: "Mar 05, 2025 15:00:00 EST",
   },
   {
     name: "Temporal Modeling",
