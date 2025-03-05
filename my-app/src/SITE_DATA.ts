@@ -207,13 +207,13 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/temporal/temporal_operators.html",
     recordingLink: "",
-    liveCodeLink: "",
-    // otherLinks: [
-    //   {
-    //     name: "Integer counter model",
-    //     link: "https://csci1710.github.io/book/chapters/temporal/counter.frg",
-    //   },
-    // ],
+    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar05_mutex.frg",
+    otherLinks: [
+      {
+        name: "Integer counter model",
+        link: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar05_counter.frg",
+      },
+    ],
   },
   {
     name: "Modeling Mutex (Part 3, Temporally)",
