@@ -198,7 +198,8 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/temporal/liveness_and_lassos.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar03_mutex.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar03_mutex.frg",
   },
   {
     name: "Temporal Forge",
@@ -513,7 +514,7 @@ export const labAssignments: Assignment[] = [
   {
     name: "Hotel Case Study",
     dateRange: "Mar 05 → Mar 06, 2025",
-    href: "https://drive.google.com/file/d/1R6Lt2wQkR3hz1G6CDnE-tP9wkwJK8qT2/view?usp=sharing",
+    href: "",
     autoReleaseDate: "Mar 06, 2025 15:00:00 EST",
   },
   {
