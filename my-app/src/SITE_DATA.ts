@@ -221,7 +221,7 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/temporal/temporal_operators_2.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar07_mutex.frg",
   },
   {
     name: "Obligations and the Past",
