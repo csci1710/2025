@@ -245,12 +245,18 @@ export const lectures: Lecture[] = [
     liveCodeLink: "",
   },
   {
-    name: "Peterson's Lock (Part 1)",
+    name: "Deadlocks, Peterson's Lock (Part 1)",
     date: "Mar 14",
     notesLink:
       "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar14_mutex.frg",
+    otherLinks: [
+      {
+        name: "In-class Starter",
+        link: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar14_starter.frg",
+      },
+    ],
   },
   {
     name: "Peterson's Lock (Part 2)",
@@ -274,13 +280,13 @@ export const lectures: Lecture[] = [
     recordingLink: "",
     liveCodeLink: "",
   },
-  // {
-  //   name: "Q&A (No notes)",
-  //   date: "Mar 21",
-  //   notesLink: "",
-  //   recordingLink: "",
-  //   liveCodeLink: "",
-  // },
+  {
+    name: "Q&A, Debugging Tips",
+    date: "Mar 21",
+    notesLink: "",
+    recordingLink: "",
+    liveCodeLink: "",
+  },
   // {
   //   name: "Solving SAT (DPLL Part 1)",
   //   date: "Mar 31",
