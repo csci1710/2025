@@ -207,7 +207,8 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/temporal/temporal_operators.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar05_mutex.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar05_mutex.frg",
     otherLinks: [
       {
         name: "Integer counter model",
@@ -221,7 +222,8 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/temporal/temporal_operators_2.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar07_mutex.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar07_mutex.frg",
   },
   {
     name: "Obligations and the Past",
@@ -250,7 +252,8 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar14_mutex.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar14_mutex.frg",
     otherLinks: [
       {
         name: "In-class Starter",
@@ -451,7 +454,7 @@ export const homeworkAssignments: Assignment[] = [
     name: "Elevator Critique",
     dateRange: "Mar 14 → Mar 20, 2025",
     href: "https://hackmd.io/@csci1710/rJ3YVQoFT",
-    autoReleaseDate: "Mar 14, 2025 11:00:00 EST",
+    autoReleaseDate: "Mar 14, 2025 11:00:00 EDT",
   },
   {
     name: "SAT 1",
