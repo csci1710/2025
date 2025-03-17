@@ -267,7 +267,7 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar17_mutex.frg",
     // otherLinks: [
     //   {
     //     name: "Prim's algorithm model",
@@ -276,7 +276,7 @@ export const lectures: Lecture[] = [
     // ],
   },
   {
-    name: "How Forge Works (Part 1)",
+    name: "Finishing Mutex, How Forge Works",
     date: "Mar 19",
     notesLink:
       "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
