@@ -267,13 +267,7 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar19_bounds.frg",
-    otherLinks: [
-      {
-        name: "Peterson Fix",
-        link: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar17_mutex.frg",
-      },
-    ],
+    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar17_mutex.frg",
   },
   {
     name: "Finishing Mutex, How Forge Works",
@@ -281,13 +275,13 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
     recordingLink: "",
-    liveCodeLink: "",
+    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar19_bounds.frg",
     otherLinks: [
-    //   {
-    //     name: "Prim's algorithm model",
-    //     link: "https://github.com/csci1710/public-examples/blob/main/2024/prim.frg",
-    //   },
-    // ],
+      {
+        name: "Fixing Peterson",
+        link: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar17_mutex.frg",
+      },
+    ],
 
   },
   {
