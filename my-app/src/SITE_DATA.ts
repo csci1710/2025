@@ -267,13 +267,13 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar17_mutex.frg",
-    // otherLinks: [
-    //   {
-    //     name: "Prim's algorithm model",
-    //     link: "https://github.com/csci1710/public-examples/blob/main/2024/prim.frg",
-    //   },
-    // ],
+    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar19_bounds.frg",
+    otherLinks: [
+      {
+        name: "Peterson Fix",
+        link: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar17_mutex.frg",
+      },
+    ],
   },
   {
     name: "Finishing Mutex, How Forge Works",
@@ -282,6 +282,13 @@ export const lectures: Lecture[] = [
       "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
     recordingLink: "",
     liveCodeLink: "",
+    otherLinks: [
+    //   {
+    //     name: "Prim's algorithm model",
+    //     link: "https://github.com/csci1710/public-examples/blob/main/2024/prim.frg",
+    //   },
+    // ],
+
   },
   {
     name: "Q&A, Debugging Tips",
@@ -291,7 +298,7 @@ export const lectures: Lecture[] = [
     liveCodeLink: "",
   },
   // {
-  //   name: "Solving SAT (DPLL Part 1)",
+  //   name: "Solving SAT (Part 1)",
   //   date: "Mar 31",
   //   notesLink:
   //     "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
@@ -299,7 +306,7 @@ export const lectures: Lecture[] = [
   //   liveCodeLink: "",
   // },
   // {
-  //   name: "Solving SAT (DPLL Part 2)",
+  //   name: "Solving SAT (Part 2)",
   //   date: "Apr 02",
   //   notesLink:
   //     "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
