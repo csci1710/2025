@@ -234,7 +234,7 @@ pred good_me {
     #{p: Process | World.loc[p] = InCS} <= 1
 
     // ENRICHMENT: FORBID PRESTATES WITH BAD FLAG USE
-    all p: Process | World.loc[p] in (InCS + Waiting) implies p in World.flags 
+    all p: Process | World.loc[p] in (InCS + Waiting + Halfway) implies p in World.flags 
     // ENRICHMENT: FORBID PRESTATES WITH BAD POLITENESS
 
     // Needs excluding, but too weak...
@@ -243,10 +243,20 @@ pred good_me {
 
     // Stronger:
     // (World.polite != p1)
-    all disj p1,p2: Process | World.loc[p1] = InCS => { 
-        World.polite = p2
+    
+    all disj p1,p2: Process | (World.loc[p1] = InCS) => { 
+    
+        // Maybe I'm not the polite one (implying the other process arrived either just after
+        // I was being polite, or after I entered the critical section.)
+        World.polite != p1
         or
+        // Maybe they aren't interested at all, so it doesn't matter if I'm polite.
         (p2 not in World.flags)
+        or 
+        // Maybe I moved in when their flag was false, but then they became interested.
+        // Here, they'd be in Halfway... (we could also write this as, their flag is true
+        //   but I am the polite one still).
+        World.loc[p2] in Halfway
     }
     
 }
@@ -263,8 +273,9 @@ pred next_good_me {
     -- next_state: advance the state index by one
     next_state good_me}
 
-//req_me_consec: assert  
-//  {good_me and delta} is sufficient for next_good_me
+req_me_consec: assert  
+ {good_me and delta} is sufficient for next_good_me
+
 -- Why no `always` here? Again, because we're using the inductive method, 
 -- we only care about the first two states of the trace Forge finds us. 
 -- the "trace that Forge finds" isn't necessarily a valid system trace,
@@ -284,6 +295,11 @@ pred non_starvation {
             // (World.loc[p] = Waiting) implies
             // What if:
             (p in World.flags) implies
+            // This ends up OK too. But we are forgetting something. We modeled the processes
+            // as constantly seeking access; they have no option to _remain uninterested_. 
+            // Exercise: add this, and consider the consequences for the model. 
+            // (It turns out that this is why we need the flags still, and politeness
+            //  isn't enough.)
             // some later state where p gets access
                 (eventually World.loc[p] = InCS)
         }}}
