@@ -267,7 +267,8 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/temporal/fixing_lock_temporal.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar17_mutex.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar17_mutex.frg",
   },
   {
     name: "Finishing Mutex, How Forge Works",
@@ -275,21 +276,22 @@ export const lectures: Lecture[] = [
     notesLink:
       "https://csci1710.github.io/book/chapters/solvers/bounds_booleans_how_forge_works.html",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar19_bounds.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar19_bounds.frg",
     otherLinks: [
       {
         name: "Fixing Peterson",
         link: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/mar17_mutex.frg",
       },
     ],
-
   },
   {
     name: "Q&A, Debugging Tips",
     date: "Mar 21",
     notesLink: "",
     recordingLink: "",
-    liveCodeLink: "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/assert_ltl.frg",
+    liveCodeLink:
+      "https://github.com/csci1710/2025/blob/main/my-app/public/livecode/2025/assert_ltl.frg",
   },
   // {
   //   name: "Solving SAT (Part 1)",
@@ -556,7 +558,7 @@ export const projectAssignments: Assignment[] = [
     name: "Final Project (Proposal)",
     dateRange: "Apr 03, 2025",
     href: "https://hackmd.io/@csci1710/ByCXUZ2KT",
-    autoReleaseDate: "Apr 03, 2025 11:00:00 EST",
+    autoReleaseDate: "Mar 20, 2025 11:00:00 EST",
   },
   {
     name: "Final Project",
