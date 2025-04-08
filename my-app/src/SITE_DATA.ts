@@ -467,15 +467,15 @@ export const homeworkAssignments: Assignment[] = [
   },
   {
     name: "SAT 2",
-    dateRange: "Apr 14 → Apr 20, 2025",
+    dateRange: "Apr 11 → Apr 17, 2025",
     href: "https://hackmd.io/@csci1710/BkMlBmoKa",
-    autoReleaseDate: "Apr 14, 2025 11:00:00 EDT",
+    autoReleaseDate: "Apr 11, 2025 11:00:00 EDT",
   },
   {
     name: "SMT",
-    dateRange: "Apr 21 → Apr 27, 2025",
+    dateRange: "Apr 18 → Apr 24, 2025",
     href: "https://hackmd.io/@csci1710/rkzzBmoYa",
-    autoReleaseDate: "Apr 21, 2025 11:00:00 EDT",
+    autoReleaseDate: "Apr 18, 2025 11:00:00 EDT",
   },
   // {
   //   // Rickroll ;)
