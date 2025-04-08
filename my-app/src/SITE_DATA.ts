@@ -296,37 +296,38 @@ export const lectures: Lecture[] = [
   {
     name: "Solving SAT (Part 1)",
     date: "Mar 31",
-    notesLink:
-      "",
+    notesLink: "https://csci1710.github.io/book/chapters/solvers/dpll.html",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
     name: "Solving SAT (Part 2)",
     date: "Apr 02",
-    notesLink:
-      "",
+    notesLink: "https://csci1710.github.io/book/chapters/solvers/dpll.html",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
     name: "Resolution (Part 1)",
     date: "Apr 04",
-    notesLink: "",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/solvers/resolution.html",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
     name: "Resolution (Part 2)",
     date: "Apr 07",
-    notesLink: "",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/solvers/resolution.html",
     recordingLink: "",
     liveCodeLink: "",
   },
   {
     name: "Resolution (Part 3)",
     date: "Apr 09",
-    notesLink: "",
+    notesLink:
+      "https://csci1710.github.io/book/chapters/solvers/resolution.html",
     recordingLink: "",
     liveCodeLink: "",
   },
@@ -399,7 +400,7 @@ export const lectures: Lecture[] = [
     notesLink: "",
     recordingLink: "",
     liveCodeLink: "",
-  }
+  },
 ];
 
 // For assignments, exclude HREF field to automatically disable the assignment
