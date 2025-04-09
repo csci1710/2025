@@ -395,7 +395,7 @@ export const lectures: Lecture[] = [
     liveCodeLink: "",
   },
   {
-    name: "Carolyn Zech",
+    name: "Guest: Carolyn Zech",
     date: "May 02",
     notesLink: "",
     recordingLink: "",
