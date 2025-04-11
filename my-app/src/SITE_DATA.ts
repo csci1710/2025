@@ -462,7 +462,7 @@ export const homeworkAssignments: Assignment[] = [
   {
     name: "SAT 2",
     dateRange: "Apr 11 → Apr 17, 2025",
-    href: "https://hackmd.io/@csci1710/BkMlBmoKa",
+    href: "https://hackmd.io/@csci1710/HJvSHtXCyl",
     autoReleaseDate: "Apr 11, 2025 17:00:00 EDT",
   },
   {
